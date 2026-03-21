@@ -1,0 +1,751 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finnish Core Verbs – Anki Cards</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap');
+
+  :root {
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --accent: #c0392b;
+    --accent2: #2c3e50;
+    --muted: #888;
+    --border: #e8e0d5;
+    --tag-bg: #f0ebe3;
+    --fi: #2c3e50;
+    --spoken: #7a4f2e;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #222;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--accent2);
+    color: white;
+    padding: 2rem 2rem 1.5rem;
+    border-bottom: 4px solid var(--accent);
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+  }
+  header p { font-size: 0.9rem; opacity: 0.7; margin-top: 0.4rem; }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: var(--accent2);
+    border-bottom: 1px solid #1a252f;
+  }
+  nav button {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+  nav button:hover, nav button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .verb-section { display: none; }
+  .verb-section.visible { display: block; }
+
+  .verb-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .verb-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: var(--accent);
+  }
+  .verb-header .meaning {
+    font-size: 1.1rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  /* ANKI CARD */
+  .anki-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .card-front {
+    background: var(--tag-bg);
+    padding: 0.7rem 1.2rem;
+    font-size: 0.78rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card-front .tag {
+    background: var(--accent2);
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+  }
+  .card-back {
+    padding: 1rem 1.2rem;
+  }
+
+  /* CONJUGATION TABLE */
+  .conj-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.93rem;
+  }
+  .conj-table th {
+    text-align: left;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+  .conj-table td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid #f0ece6;
+    vertical-align: top;
+  }
+  .conj-table tr:last-child td { border-bottom: none; }
+  .pronoun { color: var(--muted); font-style: italic; font-size: 0.85rem; }
+  .present { color: var(--fi); font-weight: 500; }
+  .past { color: #555; }
+  .spoken { color: var(--spoken); font-style: italic; }
+
+  /* EXPRESSIONS */
+  .expressions-list {
+    list-style: none;
+    padding: 0;
+  }
+  .expressions-list li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid #f0ece6;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .expressions-list li:last-child { border-bottom: none; }
+  .fi-text { color: var(--fi); font-weight: 500; }
+  .en-text { color: var(--muted); font-style: italic; font-size: 0.9rem; }
+
+  /* STORY */
+  .story-box {
+    background: linear-gradient(135deg, #fdf6ee 0%, #f7efe3 100%);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.2rem;
+  }
+  .story-box p {
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+  .story-box .fi-story { color: var(--fi); margin-bottom: 0.6rem; }
+  .story-box .en-story { color: var(--muted); font-style: italic; font-size: 0.88rem; }
+
+  .verbtype-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--accent2);
+    color: white;
+    padding: 0.2rem 0.7rem 0.2rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-family: 'Source Serif 4', serif;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+  .verbtype-badge .vt-num {
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85em;
+  }
+  .verbtype-rule {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.35rem;
+  }
+  .verb-header-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin: 1.4rem 0 0.6rem;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Finnish Core Verbs</h1>
+  <p>Conjugations · Expressions · Stories — Anki Cards</p>
+</header>
+
+<nav id="nav"></nav>
+
+<main id="main"></main>
+
+<script>
+const verbs = [
+  {
+    fi: "olla", en: "to be", verbtype: 3, verbrule: "type 3 · irregular; stem ends in two consonants + vowel (-lla/-llä etc.)",
+    conj: [
+      { pro: "minä", pres: "olen", past: "olin", spok: "mä oon" },
+      { pro: "sinä", pres: "olet", past: "olit", spok: "sä oot" },
+      { pro: "hän", pres: "on", past: "oli", spok: "se on" },
+      { pro: "me", pres: "olemme", past: "olimme", spok: "me ollaan" },
+      { pro: "te", pres: "olette", past: "olitte", spok: "te ootte" },
+      { pro: "he", pres: "ovat", past: "olivat", spok: "ne on" },
+    ],
+    expressions: [
+      ["Olen väsynyt.", "I am tired."],
+      ["Hän on kotona.", "She is at home."],
+      ["Olimme kaupassa.", "We were at the shop."],
+      ["Onko sinulla aikaa?", "Do you have time? (lit. Is there time with you?)"],
+      ["Se on hyvä idea.", "That's a good idea."],
+    ],
+    story_fi: "Eilen olin töissä koko päivän. Olin todella väsynyt. Illalla olin kotona ja olin onnellinen.",
+    story_en: "Yesterday I was at work all day. I was really tired. In the evening I was home and I was happy.",
+  },
+  {
+    fi: "mennä", en: "to go", verbtype: 3, verbrule: "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
+    conj: [
+      { pro: "minä", pres: "menen", past: "menin", spok: "mä meen" },
+      { pro: "sinä", pres: "menet", past: "menit", spok: "sä meet" },
+      { pro: "hän", pres: "menee", past: "meni", spok: "se menee" },
+      { pro: "me", pres: "menemme", past: "menimme", spok: "me mennään" },
+      { pro: "te", pres: "menette", past: "menitte", spok: "te meette" },
+      { pro: "he", pres: "menevät", past: "menivät", spok: "ne menee" },
+    ],
+    expressions: [
+      ["Menen töihin joka päivä.", "I go to work every day."],
+      ["Missä hän menee?", "Where is she going?"],
+      ["Menimme elokuviin.", "We went to the cinema."],
+      ["Menetkö kauppaan?", "Are you going to the shop?"],
+      ["Bussi menee nopeasti.", "The bus goes fast."],
+    ],
+    story_fi: "Eilen menin töihin. Töiden jälkeen menin kauppaan. Sitten menin kotiin.",
+    story_en: "Yesterday I went to work. After work I went to the shop. Then I went home.",
+  },
+  {
+    fi: "tulla", en: "to come", verbtype: 3, verbrule: "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
+    conj: [
+      { pro: "minä", pres: "tulen", past: "tulin", spok: "mä tuun" },
+      { pro: "sinä", pres: "tulet", past: "tulit", spok: "sä tuut" },
+      { pro: "hän", pres: "tulee", past: "tuli", spok: "se tulee" },
+      { pro: "me", pres: "tulemme", past: "tulimme", spok: "me tullaan" },
+      { pro: "te", pres: "tulette", past: "tulitte", spok: "te tuutte" },
+      { pro: "he", pres: "tulevat", past: "tulivat", spok: "ne tulee" },
+    ],
+    expressions: [
+      ["Tulen kohta.", "I'm coming soon."],
+      ["Hän tuli myöhässä.", "She came late."],
+      ["Tuleeko hän juhliin?", "Is he coming to the party?"],
+      ["Talvi tulee pian.", "Winter is coming soon."],
+      ["Tulimme junalla.", "We came by train."],
+    ],
+    story_fi: "Kaverini tuli käymään. Hän tuli bussilla. Me teimme ruokaa ja hän lähti illalla.",
+    story_en: "My friend came to visit. She came by bus. We cooked food and she left in the evening.",
+  },
+  {
+    fi: "tehdä", en: "to do / to make", verbtype: 2, verbrule: "type 2 · infinitive ends in -da/-dä",
+    conj: [
+      { pro: "minä", pres: "teen", past: "tein", spok: "mä teen" },
+      { pro: "sinä", pres: "teet", past: "teit", spok: "sä teet" },
+      { pro: "hän", pres: "tekee", past: "teki", spok: "se tekee" },
+      { pro: "me", pres: "teemme", past: "teimme", spok: "me tehään" },
+      { pro: "te", pres: "teette", past: "teitte", spok: "te teette" },
+      { pro: "he", pres: "tekevät", past: "tekivät", spok: "ne tekee" },
+    ],
+    expressions: [
+      ["Mitä teet viikonloppuna?", "What are you doing at the weekend?"],
+      ["Teen ruokaa.", "I'm making food."],
+      ["Hän teki hyvää työtä.", "She did good work."],
+      ["Teimme sopimuksen.", "We made a deal."],
+      ["En tiedä mitä tehdä.", "I don't know what to do."],
+    ],
+    story_fi: "Tänään teen siivouksen. Ensin teen keittiön, sitten teen olohuoneen. Illalla teen ruokaa.",
+    story_en: "Today I'm doing the cleaning. First I do the kitchen, then I do the living room. In the evening I make food.",
+  },
+  {
+    fi: "saada", en: "to get / to receive", verbtype: 2, verbrule: "type 2 · infinitive ends in -da/-dä",
+    conj: [
+      { pro: "minä", pres: "saan", past: "sain", spok: "mä saan" },
+      { pro: "sinä", pres: "saat", past: "sait", spok: "sä saat" },
+      { pro: "hän", pres: "saa", past: "sai", spok: "se saa" },
+      { pro: "me", pres: "saamme", past: "saimme", spok: "me saadaan" },
+      { pro: "te", pres: "saatte", past: "saitte", spok: "te saatte" },
+      { pro: "he", pres: "saavat", past: "saivat", spok: "ne saa" },
+    ],
+    expressions: [
+      ["Sain kirjeen tänään.", "I got a letter today."],
+      ["Saatko apua?", "Can you get help? / Are you getting help?"],
+      ["He saavat palkkion.", "They will receive a prize."],
+      ["Emme saaneet vastausta.", "We didn't get a reply."],
+      ["Saanko lisää vettä?", "May I have more water?"],
+    ],
+    story_fi: "Sain eilen puhelun töistä. Sain hyvät uutiset. Illalla sain myös kirjeen kotiin.",
+    story_en: "Yesterday I got a call from work. I got good news. In the evening I also received a letter at home.",
+  },
+  {
+    fi: "antaa", en: "to give", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "annan", past: "annoin", spok: "mä annan" },
+      { pro: "sinä", pres: "annat", past: "annoit", spok: "sä annat" },
+      { pro: "hän", pres: "antaa", past: "antoi", spok: "se antaa" },
+      { pro: "me", pres: "annamme", past: "annoimme", spok: "me annetaan" },
+      { pro: "te", pres: "annatte", past: "annoitte", spok: "te annatte" },
+      { pro: "he", pres: "antavat", past: "antoivat", spok: "ne antaa" },
+    ],
+    expressions: [
+      ["Annan sinulle kirjan.", "I'll give you the book."],
+      ["Hän antoi minulle lahjaa.", "She gave me a gift."],
+      ["Anna minulle hetki.", "Give me a moment."],
+      ["Annoimme palautetta.", "We gave feedback."],
+      ["Voitko antaa neuvon?", "Can you give me advice?"],
+    ],
+    story_fi: "Annoin kaverilleni lahjan. Hän antoi minulle halauksen. Sitten annoimme toisillemme onnittelut.",
+    story_en: "I gave my friend a gift. She gave me a hug. Then we gave each other congratulations.",
+  },
+  {
+    fi: "ottaa", en: "to take", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "otan", past: "otin", spok: "mä otan" },
+      { pro: "sinä", pres: "otat", past: "otit", spok: "sä otat" },
+      { pro: "hän", pres: "ottaa", past: "otti", spok: "se ottaa" },
+      { pro: "me", pres: "otamme", past: "otimme", spok: "me otetaan" },
+      { pro: "te", pres: "otatte", past: "otitte", spok: "te otatte" },
+      { pro: "he", pres: "ottavat", past: "ottivat", spok: "ne ottaa" },
+    ],
+    expressions: [
+      ["Otan kahvin.", "I'll have a coffee."],
+      ["Hän otti taksin.", "She took a taxi."],
+      ["Ota se rauhallisesti.", "Take it easy."],
+      ["Otimme valokuvan.", "We took a photo."],
+      ["Voitko ottaa tämän?", "Can you take this?"],
+    ],
+    story_fi: "Otin aamulla suihkun. Sitten otin aamiaisen. Otin myös kahvia ennen töihin lähtöä.",
+    story_en: "In the morning I had a shower. Then I had breakfast. I also had a coffee before leaving for work.",
+  },
+  {
+    fi: "haluta", en: "to want", verbtype: 4, verbrule: "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    conj: [
+      { pro: "minä", pres: "haluan", past: "halusin", spok: "mä haluun" },
+      { pro: "sinä", pres: "haluat", past: "halusit", spok: "sä haluut" },
+      { pro: "hän", pres: "haluaa", past: "halusi", spok: "se haluaa" },
+      { pro: "me", pres: "haluamme", past: "halusimme", spok: "me halutaan" },
+      { pro: "te", pres: "haluatte", past: "halusitte", spok: "te haluutte" },
+      { pro: "he", pres: "haluavat", past: "halusivat", spok: "ne haluaa" },
+    ],
+    expressions: [
+      ["Haluan oppia suomea.", "I want to learn Finnish."],
+      ["Mitä sinä haluat?", "What do you want?"],
+      ["Hän halusi tulla mukaan.", "She wanted to come along."],
+      ["Haluamme lisää aikaa.", "We want more time."],
+      ["En halua mennä.", "I don't want to go."],
+    ],
+    story_fi: "Halusin mennä ulos, mutta satoi. Sitten halusin tehdä ruokaa. Lopulta halusin vain nukkua.",
+    story_en: "I wanted to go outside, but it was raining. Then I wanted to cook. In the end I just wanted to sleep.",
+  },
+  {
+    fi: "voida", en: "to be able to / can", verbtype: 2, verbrule: "type 2 · infinitive ends in -da/-dä",
+    conj: [
+      { pro: "minä", pres: "voin", past: "voin", spok: "mä voin" },
+      { pro: "sinä", pres: "voit", past: "voit", spok: "sä voit" },
+      { pro: "hän", pres: "voi", past: "voi", spok: "se voi" },
+      { pro: "me", pres: "voimme", past: "voimme", spok: "me voidaan" },
+      { pro: "te", pres: "voitte", past: "voitte", spok: "te voitte" },
+      { pro: "he", pres: "voivat", past: "voivat", spok: "ne voi" },
+    ],
+    expressions: [
+      ["Voin auttaa sinua.", "I can help you."],
+      ["Voitko tulla huomenna?", "Can you come tomorrow?"],
+      ["Hän ei voi syödä gluteenia.", "She can't eat gluten."],
+      ["Voimmeko puhua?", "Can we talk?"],
+      ["En voi uskoa sitä.", "I can't believe it."],
+    ],
+    story_fi: "En voinut nukkua eilen. Voin kuitenkin mennä töihin. Illalla voin vihdoin levätä.",
+    story_en: "I couldn't sleep yesterday. I could still go to work though. In the evening I could finally rest.",
+  },
+  {
+    fi: "lähteä", en: "to leave / to go (away)", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "lähden", past: "lähdin", spok: "mä lähden" },
+      { pro: "sinä", pres: "lähdet", past: "lähdit", spok: "sä lähdet" },
+      { pro: "hän", pres: "lähtee", past: "lähti", spok: "se lähtee" },
+      { pro: "me", pres: "lähdemme", past: "lähdimme", spok: "me lähdetään" },
+      { pro: "te", pres: "lähdette", past: "lähditte", spok: "te lähdette" },
+      { pro: "he", pres: "lähtevät", past: "lähtivät", spok: "ne lähtee" },
+    ],
+    expressions: [
+      ["Lähden töihin kahdeksalta.", "I leave for work at eight."],
+      ["Hän lähti ilman sanaakaan.", "She left without a word."],
+      ["Milloin lähdette lomalle?", "When are you leaving on holiday?"],
+      ["Bussi lähtee viiden minuutin päästä.", "The bus leaves in five minutes."],
+      ["Lähdetään yhdessä!", "Let's go together!"],
+    ],
+    story_fi: "Lähdin kotoa aikaisin. Lähdin bussilla asemalle. Sieltä lähdimme junalla kaupunkiin.",
+    story_en: "I left home early. I left by bus to the station. From there we left by train to the city.",
+  },
+  {
+    fi: "tietää", en: "to know (a fact)", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "tiedän", past: "tiesin", spok: "mä tiedän" },
+      { pro: "sinä", pres: "tiedät", past: "tiesit", spok: "sä tiedät" },
+      { pro: "hän", pres: "tietää", past: "tiesi", spok: "se tietää" },
+      { pro: "me", pres: "tiedämme", past: "tiesimme", spok: "me tiedetään" },
+      { pro: "te", pres: "tiedätte", past: "tiesitte", spok: "te tiedätte" },
+      { pro: "he", pres: "tietävät", past: "tiesivät", spok: "ne tietää" },
+    ],
+    expressions: [
+      ["En tiedä vastausta.", "I don't know the answer."],
+      ["Tiedätkö missä hän on?", "Do you know where he is?"],
+      ["Hän tiesi kaikki vastaukset.", "She knew all the answers."],
+      ["Tiedän sen jo.", "I already know that."],
+      ["Kukaan ei tiennyt mitään.", "Nobody knew anything."],
+    ],
+    story_fi: "En tiennyt, mitä tehdä. Tiesin vain, että piti lähteä. Nyt tiedän, että se oli oikea päätös.",
+    story_en: "I didn't know what to do. I only knew that I had to leave. Now I know it was the right decision.",
+  },
+  {
+    fi: "sanoa", en: "to say / to tell", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "sanon", past: "sanoin", spok: "mä sanon" },
+      { pro: "sinä", pres: "sanot", past: "sanoit", spok: "sä sanot" },
+      { pro: "hän", pres: "sanoo", past: "sanoi", spok: "se sanoo" },
+      { pro: "me", pres: "sanomme", past: "sanoimme", spok: "me sanotaan" },
+      { pro: "te", pres: "sanotte", past: "sanoitte", spok: "te sanotte" },
+      { pro: "he", pres: "sanovat", past: "sanoivat", spok: "ne sanoo" },
+    ],
+    expressions: [
+      ["Mitä sinä sanoit?", "What did you say?"],
+      ["Hän sanoi hyvästit.", "She said goodbye."],
+      ["Sano se uudestaan.", "Say it again."],
+      ["Sanotaan, että...", "They say that... / It is said that..."],
+      ["En osaa sanoa.", "I can't say / I don't know."],
+    ],
+    story_fi: "Hän sanoi, että tulee myöhässä. Sanoin, että se on ok. Lopulta hän sanoi anteeksi.",
+    story_en: "She said she'd be late. I said that was fine. In the end she said sorry.",
+  },
+  {
+    fi: "nähdä", en: "to see", verbtype: 2, verbrule: "type 2 · infinitive ends in -da/-dä",
+    conj: [
+      { pro: "minä", pres: "näen", past: "näin", spok: "mä nään" },
+      { pro: "sinä", pres: "näet", past: "näit", spok: "sä nääт" },
+      { pro: "hän", pres: "näkee", past: "näki", spok: "se näkee" },
+      { pro: "me", pres: "näemme", past: "näimme", spok: "me nähdään" },
+      { pro: "te", pres: "näette", past: "näitte", spok: "te näette" },
+      { pro: "he", pres: "näkevät", past: "näkivät", spok: "ne näkee" },
+    ],
+    expressions: [
+      ["Nähdään huomenna!", "See you tomorrow!"],
+      ["En näe mitään.", "I can't see anything."],
+      ["Näin hänet eilen.", "I saw him yesterday."],
+      ["Näetkö sen talon?", "Do you see that house?"],
+      ["Halusin nähdä sinut.", "I wanted to see you."],
+    ],
+    story_fi: "Näin vanhan ystäväni kadulla. Hän ei nähnyt minua ensin. Sitten katsoimme toisiamme ja hymylimme.",
+    story_en: "I saw an old friend on the street. She didn't see me at first. Then we looked at each other and smiled.",
+  },
+  {
+    fi: "kysyä", en: "to ask", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "kysyn", past: "kysyin", spok: "mä kysyn" },
+      { pro: "sinä", pres: "kysyt", past: "kysyit", spok: "sä kysyt" },
+      { pro: "hän", pres: "kysyy", past: "kysyi", spok: "se kysyy" },
+      { pro: "me", pres: "kysymme", past: "kysyimme", spok: "me kysytään" },
+      { pro: "te", pres: "kysytte", past: "kysyitte", spok: "te kysytte" },
+      { pro: "he", pres: "kysyvät", past: "kysyivät", spok: "ne kysyy" },
+    ],
+    expressions: [
+      ["Voin kysyä häneltä.", "I can ask her."],
+      ["Kysyn tietä.", "I'll ask for directions."],
+      ["Hän kysyi nimeni.", "She asked my name."],
+      ["Kysytään yhdessä.", "Let's ask together."],
+      ["Saanko kysyä jotain?", "May I ask something?"],
+    ],
+    story_fi: "Eksyin kaupungissa. Kysyin tietä ohikulkijalta. Hän kysyi, mistä olin kotoisin, ja auttoi minua.",
+    story_en: "I got lost in the city. I asked a passer-by for directions. They asked where I was from and helped me.",
+  },
+  {
+    fi: "ajatella", en: "to think", verbtype: 3, verbrule: "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
+    conj: [
+      { pro: "minä", pres: "ajattelen", past: "ajattelin", spok: "mä ajattelen" },
+      { pro: "sinä", pres: "ajattelet", past: "ajattelit", spok: "sä ajattelet" },
+      { pro: "hän", pres: "ajattelee", past: "ajatteli", spok: "se ajattelee" },
+      { pro: "me", pres: "ajattelemme", past: "ajattelimme", spok: "me ajatellaan" },
+      { pro: "te", pres: "ajattelette", past: "ajattelitte", spok: "te ajattelette" },
+      { pro: "he", pres: "ajattelevat", past: "ajattelivat", spok: "ne ajattelee" },
+    ],
+    expressions: [
+      ["Mitä ajattelet siitä?", "What do you think about it?"],
+      ["Ajattelen sinua.", "I'm thinking of you."],
+      ["Hän ajatteli hetken.", "She thought for a moment."],
+      ["En ajatellut sitä.", "I didn't think of that."],
+      ["Ajatellaan yhdessä.", "Let's think together."],
+    ],
+    story_fi: "Ajattelin paljon eilen illalla. Ajattelin töitä ja tulevaisuutta. Lopulta ajattelin, että kaikki järjestyy.",
+    story_en: "I thought a lot yesterday evening. I thought about work and the future. In the end I thought everything would work out.",
+  },
+  {
+    fi: "tarvita", en: "to need", verbtype: 5, verbrule: "type 5 · infinitive ends in -ita/-itä; stem drops -ta/-tä and adds -tse-",
+    conj: [
+      { pro: "minä", pres: "tarvitsen", past: "tarvitsin", spok: "mä tarviin" },
+      { pro: "sinä", pres: "tarvitset", past: "tarvitsit", spok: "sä tarvit" },
+      { pro: "hän", pres: "tarvitsee", past: "tarvitsi", spok: "se tarvii" },
+      { pro: "me", pres: "tarvitsemme", past: "tarvitsimme", spok: "me tarvitaan" },
+      { pro: "te", pres: "tarvitsette", past: "tarvitsitte", spok: "te tarvitte" },
+      { pro: "he", pres: "tarvitsevat", past: "tarvitsivat", spok: "ne tarvii" },
+    ],
+    expressions: [
+      ["Tarvitsen apua.", "I need help."],
+      ["Tarvitsetko jotain?", "Do you need anything?"],
+      ["Hän tarvitsi lisää aikaa.", "She needed more time."],
+      ["Emme tarvitse sitä.", "We don't need it."],
+      ["Mitä tarvitset kaupasta?", "What do you need from the shop?"],
+    ],
+    story_fi: "Tarvitsin uuden takin. Menin kauppaan ja tarvitsin myös uudet kengät. Tarvitsin enemmän rahaa kuin luulin.",
+    story_en: "I needed a new coat. I went to the shop and also needed new shoes. I needed more money than I thought.",
+  },
+  {
+    fi: "löytää", en: "to find", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "löydän", past: "löysin", spok: "mä löydän" },
+      { pro: "sinä", pres: "löydät", past: "löysit", spok: "sä löydät" },
+      { pro: "hän", pres: "löytää", past: "löysi", spok: "se löytää" },
+      { pro: "me", pres: "löydämme", past: "löysimme", spok: "me löydetään" },
+      { pro: "te", pres: "löydätte", past: "löysitte", spok: "te löydätte" },
+      { pro: "he", pres: "löytävät", past: "löysivät", spok: "ne löytää" },
+    ],
+    expressions: [
+      ["En löydä avaimiani.", "I can't find my keys."],
+      ["Löysin lompakon kadulta.", "I found a wallet on the street."],
+      ["Löydätkö tien itse?", "Can you find your way yourself?"],
+      ["He löysivät ratkaisun.", "They found a solution."],
+      ["Toivottavasti löydät sen.", "Hopefully you'll find it."],
+    ],
+    story_fi: "Etsin puhelintani kaikkialta. Lopulta löysin sen sohvan alta. Löysin samalla myös kadonneen korvakoru.",
+    story_en: "I searched for my phone everywhere. Eventually I found it under the sofa. At the same time I also found a missing earring.",
+  },
+  {
+    fi: "odottaa", en: "to wait / to expect", verbtype: 1, verbrule: "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    conj: [
+      { pro: "minä", pres: "odotan", past: "odotin", spok: "mä odotan" },
+      { pro: "sinä", pres: "odotat", past: "odotit", spok: "sä odotat" },
+      { pro: "hän", pres: "odottaa", past: "odotti", spok: "se odottaa" },
+      { pro: "me", pres: "odotamme", past: "odotimme", spok: "me odotetaan" },
+      { pro: "te", pres: "odotatte", past: "odotitte", spok: "te odotatte" },
+      { pro: "he", pres: "odottavat", past: "odottivat", spok: "ne odottaa" },
+    ],
+    expressions: [
+      ["Odotan bussia.", "I'm waiting for the bus."],
+      ["Odota hetki!", "Wait a moment!"],
+      ["Hän odotti pitkään.", "She waited for a long time."],
+      ["Odotan innolla kesää.", "I'm looking forward to summer."],
+      ["Mitä odotat elämältä?", "What do you expect from life?"],
+    ],
+    story_fi: "Odotin ystävääni kahvilassa. Odotin jo puoli tuntia. Hän tuli lopulta ja odotimme yhdessä pöytää.",
+    story_en: "I waited for my friend in a café. I had already waited half an hour. She finally came and we waited together for a table.",
+  },
+  {
+    fi: "käydä", en: "to visit / to go (briefly) / to pass", verbtype: 2, verbrule: "type 2 · infinitive ends in -da/-dä",
+    conj: [
+      { pro: "minä", pres: "käyn", past: "kävin", spok: "mä käyn" },
+      { pro: "sinä", pres: "käyt", past: "kävit", spok: "sä käyt" },
+      { pro: "hän", pres: "käy", past: "kävi", spok: "se käy" },
+      { pro: "me", pres: "käymme", past: "kävimme", spok: "me käydään" },
+      { pro: "te", pres: "käytte", past: "kävitte", spok: "te käytte" },
+      { pro: "he", pres: "käyvät", past: "kävivät", spok: "ne käy" },
+    ],
+    expressions: [
+      ["Käyn kaupassa myöhemmin.", "I'll pop to the shop later."],
+      ["Hän käy usein täällä.", "She comes here often."],
+      ["Kävimme Tampereella.", "We visited Tampere."],
+      ["Käy sisään!", "Come in!"],
+      ["Käykö huomenna?", "Does tomorrow work? / Is tomorrow OK?"],
+    ],
+    story_fi: "Kävin eilen kirjastossa. Käyn siellä joka viikko. Kävin myös kahvilassa ennen kotiin menoa.",
+    story_en: "I visited the library yesterday. I go there every week. I also popped into a café before heading home.",
+  },
+  {
+    fi: "pitää", en: "to like / must / to hold", verbtype: 3, verbrule: "type 3 · irregular; looks like type 1 (-ää) but conjugates with type 3 stem (pidän, pidät...)",
+    conj: [
+      { pro: "minä", pres: "pidän", past: "pidin", spok: "mä pidän / mun pitää" },
+      { pro: "sinä", pres: "pidät", past: "pidit", spok: "sä pidät / sun pitää" },
+      { pro: "hän", pres: "pitää", past: "piti", spok: "se pitää" },
+      { pro: "me", pres: "pidämme", past: "pidimme", spok: "me pidetään" },
+      { pro: "te", pres: "pidätte", past: "piditte", spok: "te pidätte" },
+      { pro: "he", pres: "pitävät", past: "pitivät", spok: "ne pitää" },
+    ],
+    expressions: [
+      ["Pidän kahvista.", "I like coffee."],
+      ["Minun pitää mennä nyt.", "I have to go now."],
+      ["Hän pitää koirista.", "She likes dogs."],
+      ["Pitääkö sinun lähteä?", "Do you have to leave?"],
+      ["Me pidimme konsertista.", "We liked the concert."],
+    ],
+    story_fi: "Pidän aamusta. Minun pitää aina herätä aikaisin. Pidän myös hiljaisesta aamuteestä ennen töitä.",
+    story_en: "I like mornings. I always have to wake up early. I also like a quiet morning tea before work.",
+  },
+];
+
+function buildNav() {
+  const nav = document.getElementById('nav');
+  verbs.forEach((v, i) => {
+    const btn = document.createElement('button');
+    btn.textContent = v.fi;
+    btn.onclick = () => showVerb(i);
+    btn.id = `nav-${i}`;
+    nav.appendChild(btn);
+  });
+}
+
+function showVerb(idx) {
+  document.querySelectorAll('.verb-section').forEach(s => s.classList.remove('visible'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(`section-${idx}`).classList.add('visible');
+  document.getElementById(`nav-${idx}`).classList.add('active');
+}
+
+function buildSections() {
+  const main = document.getElementById('main');
+  verbs.forEach((v, i) => {
+    const sec = document.createElement('div');
+    sec.className = 'verb-section';
+    sec.id = `section-${i}`;
+
+    // Note for pitää
+    const pitaaNote = v.fi === 'pitää' ? '<br><small style="color:#888;font-style:italic;">Note: pitää has 3 meanings: to like (pidän kahvista), must (minun pitää), to hold (pidän kiinni). Spoken forms vary by meaning.</small>' : '';
+
+    sec.innerHTML = `
+      <div class="verb-header">
+        <h2>${v.fi}</h2>
+        <div class="verb-header-meta">
+          <span class="meaning">${v.en}</span>
+          <div style="display:flex;align-items:center;gap:0.6rem;flex-wrap:wrap;">
+            <span class="verbtype-badge"><span class="vt-num">${v.verbtype}</span> verb type ${v.verbtype}</span>
+            <span class="verbtype-rule">${v.verbrule}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 1: Conjugation -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> Conjugate <strong>${v.fi}</strong> (present / past / spoken)
+        </div>
+        <div class="card-back">
+          <table class="conj-table">
+            <thead><tr>
+              <th>Pronoun</th>
+              <th>Present</th>
+              <th>Past</th>
+              <th>Spoken</th>
+            </tr></thead>
+            <tbody>
+              ${v.conj.map(r => `<tr>
+                <td class="pronoun">${r.pro}</td>
+                <td class="present">${r.pres}</td>
+                <td class="past">${r.past}</td>
+                <td class="spoken">${r.spok}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+          ${pitaaNote}
+        </div>
+      </div>
+
+      <!-- CARD 2: Expressions -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> 5 expressions with <strong>${v.fi}</strong>
+        </div>
+        <div class="card-back">
+          <ul class="expressions-list">
+            ${v.expressions.map(([fi, en]) => `<li>
+              <span class="fi-text">${fi}</span>
+              <span class="en-text">${en}</span>
+            </li>`).join('')}
+          </ul>
+        </div>
+      </div>
+
+      <!-- CARD 3: Story -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> Short story using <strong>${v.fi}</strong>
+        </div>
+        <div class="card-back">
+          <div class="story-box">
+            <p class="fi-story">${v.story_fi}</p>
+            <p class="en-story">${v.story_en}</p>
+          </div>
+        </div>
+      </div>
+    `;
+    main.appendChild(sec);
+  });
+}
+
+buildNav();
+buildSections();
+showVerb(0);
+</script>
+</body>
+</html>
