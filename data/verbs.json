@@ -1358,6 +1358,235 @@
     ],
     "story_fi": "Pidän aamusta. Minun pitää aina herätä aikaisin. Pidän myös hiljaisesta aamuteestä ennen töitä.",
     "story_en": "I like mornings. I always have to wake up early. I also like a quiet morning tea before work."
+  },
+  {
+    "fi": "nukkua",
+    "en": "to sleep",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      { "pro": "minä", "pres": "nukun", "past": "nukuin", "spok": "mä nukun" },
+      { "pro": "sinä", "pres": "nukut", "past": "nukuit", "spok": "sä nukut" },
+      { "pro": "hän", "pres": "nukkuu", "past": "nukkui", "spok": "se nukkuu" },
+      { "pro": "me", "pres": "nukumme", "past": "nukuimme", "spok": "me nukutaan" },
+      { "pro": "te", "pres": "nukutte", "past": "nukuitte", "spok": "te nukutte" },
+      { "pro": "he", "pres": "nukkuvat", "past": "nukkuivat", "spok": "ne nukkuu" }
+    ],
+    "expressions": [
+      ["Nukun hyvin.", "I sleep well."],
+      ["Nukutko tarpeeksi?", "Do you sleep enough?"],
+      ["Hän nukkui pitkään.", "She slept for a long time."],
+      ["Emme nuku vielä.", "We are not sleeping yet."],
+      ["Lapset nukkuvat jo.", "The children are already asleep."]
+    ],
+    "story_fi": "Eilen olin väsynyt ja menin aikaisin nukkumaan. Nukuin kahdeksan tuntia. Tänään nukun varmasti hyvin taas.",
+    "story_en": "Yesterday I was tired and went to bed early. I slept for eight hours. Today I will surely sleep well again."
+  },
+  {
+    "fi": "syödä",
+    "en": "to eat",
+    "verbtype": 2,
+    "verbrule": "type 2 · infinitive ends in -da/-dä",
+    "conj": [
+      { "pro": "minä", "pres": "syön", "past": "söin", "spok": "mä syön" },
+      { "pro": "sinä", "pres": "syöt", "past": "söit", "spok": "sä syöt" },
+      { "pro": "hän", "pres": "syö", "past": "söi", "spok": "se syö" },
+      { "pro": "me", "pres": "syömme", "past": "söimme", "spok": "me syödään" },
+      { "pro": "te", "pres": "syötte", "past": "söitte", "spok": "te syötte" },
+      { "pro": "he", "pres": "syövät", "past": "söivät", "spok": "ne syö" }
+    ],
+    "expressions": [
+      ["Syön aamulla puuroa.", "I eat porridge in the morning."],
+      ["Mitä syöt lounaaksi?", "What are you eating for lunch?"],
+      ["Hän söi leipää.", "She ate bread."],
+      ["Syömme yhdessä.", "We eat together."],
+      ["Lapset syövät päivällistä.", "The children are eating dinner."]
+    ],
+    "story_fi": "Tänään syön kotona. Syön keittoa ja leipää. Eilen söin ravintolassa ystäväni kanssa.",
+    "story_en": "Today I am eating at home. I am eating soup and bread. Yesterday I ate at a restaurant with my friend."
+  },
+  {
+    "fi": "juoda",
+    "en": "to drink",
+    "verbtype": 2,
+    "verbrule": "type 2 · infinitive ends in -da/-dä",
+    "conj": [
+      { "pro": "minä", "pres": "juon", "past": "join", "spok": "mä juon" },
+      { "pro": "sinä", "pres": "juot", "past": "joit", "spok": "sä juot" },
+      { "pro": "hän", "pres": "juo", "past": "joi", "spok": "se juo" },
+      { "pro": "me", "pres": "juomme", "past": "joimme", "spok": "me juodaan" },
+      { "pro": "te", "pres": "juotte", "past": "joitte", "spok": "te juotte" },
+      { "pro": "he", "pres": "juovat", "past": "joivat", "spok": "ne juo" }
+    ],
+    "expressions": [
+      ["Juon vettä.", "I drink water."],
+      ["Juotko kahvia?", "Do you drink coffee?"],
+      ["Hän joi teetä.", "She drank tea."],
+      ["Juomme mehua aamulla.", "We drink juice in the morning."],
+      ["He joivat yhdessä.", "They drank together."]
+    ],
+    "story_fi": "Aamulla juon kahvia. Päivällä juon paljon vettä. Eilen join myös teetä illalla.",
+    "story_en": "In the morning I drink coffee. During the day I drink a lot of water. Yesterday I also drank tea in the evening."
+  },
+  {
+    "fi": "ymmärtää",
+    "en": "to understand",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      { "pro": "minä", "pres": "ymmärrän", "past": "ymmärsin", "spok": "mä ymmärrän" },
+      { "pro": "sinä", "pres": "ymmärrät", "past": "ymmärsit", "spok": "sä ymmärrät" },
+      { "pro": "hän", "pres": "ymmärtää", "past": "ymmärsi", "spok": "se ymmärtää" },
+      { "pro": "me", "pres": "ymmärrämme", "past": "ymmärsimme", "spok": "me ymmärretään" },
+      { "pro": "te", "pres": "ymmärrätte", "past": "ymmärsitte", "spok": "te ymmärrätte" },
+      { "pro": "he", "pres": "ymmärtävät", "past": "ymmärsivät", "spok": "ne ymmärtää" }
+    ],
+    "expressions": [
+      ["En ymmärrä.", "I don't understand."],
+      ["Ymmärrätkö tämän?", "Do you understand this?"],
+      ["Hän ymmärsi kysymyksen.", "She understood the question."],
+      ["Ymmärrämme vähän suomea.", "We understand a little Finnish."],
+      ["He eivät ymmärtäneet ohjeita.", "They did not understand the instructions."]
+    ],
+    "story_fi": "Opettaja puhui hitaasti. Ymmärsin suurimman osan. Nyt ymmärrän tehtävän paremmin.",
+    "story_en": "The teacher spoke slowly. I understood most of it. Now I understand the task better."
+  },
+  {
+    "fi": "muistaa",
+    "en": "to remember",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      { "pro": "minä", "pres": "muistan", "past": "muistin", "spok": "mä muistan" },
+      { "pro": "sinä", "pres": "muistat", "past": "muistit", "spok": "sä muistat" },
+      { "pro": "hän", "pres": "muistaa", "past": "muisti", "spok": "se muistaa" },
+      { "pro": "me", "pres": "muistamme", "past": "muistimme", "spok": "me muistetaan" },
+      { "pro": "te", "pres": "muistatte", "past": "muistitte", "spok": "te muistatte" },
+      { "pro": "he", "pres": "muistavat", "past": "muistivat", "spok": "ne muistaa" }
+    ],
+    "expressions": [
+      ["Muistan nimesi.", "I remember your name."],
+      ["Muistatko avaimet?", "Do you remember the keys?"],
+      ["Hän muisti syntymäpäivän.", "She remembered the birthday."],
+      ["Emme muistaneet aikaa.", "We did not remember the time."],
+      ["Muista ottaa takki!", "Remember to take a coat!"]
+    ],
+    "story_fi": "Muistan uuden sanan tänään. Kirjoitin sen vihkoon. Huomenna muistan sen ehkä vielä paremmin.",
+    "story_en": "I remember a new word today. I wrote it in my notebook. Tomorrow I may remember it even better."
+  },
+  {
+    "fi": "unohtaa",
+    "en": "to forget",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      { "pro": "minä", "pres": "unohdan", "past": "unohdin", "spok": "mä unohdan" },
+      { "pro": "sinä", "pres": "unohdat", "past": "unohdit", "spok": "sä unohdat" },
+      { "pro": "hän", "pres": "unohtaa", "past": "unohti", "spok": "se unohtaa" },
+      { "pro": "me", "pres": "unohdamme", "past": "unohdimme", "spok": "me unohdetaan" },
+      { "pro": "te", "pres": "unohdatte", "past": "unohditte", "spok": "te unohdatte" },
+      { "pro": "he", "pres": "unohtavat", "past": "unohtivat", "spok": "ne unohtaa" }
+    ],
+    "expressions": [
+      ["Unohdin puhelimeni kotiin.", "I forgot my phone at home."],
+      ["Älä unohda avaimia.", "Don't forget the keys."],
+      ["Hän unohtaa aina nimen.", "She always forgets the name."],
+      ["Unohdimme ostaa maitoa.", "We forgot to buy milk."],
+      ["Muistatko vai unohditko?", "Do you remember or did you forget?"]
+    ],
+    "story_fi": "Unohdin eilen bussikorttini kotiin. Muistin sen vasta bussipysäkillä. Tänään en unohda sitä.",
+    "story_en": "Yesterday I forgot my bus card at home. I remembered it only at the bus stop. Today I will not forget it."
+  },
+  {
+    "fi": "osata",
+    "en": "to know how to / to be able to",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      { "pro": "minä", "pres": "osaan", "past": "osasin", "spok": "mä osaan" },
+      { "pro": "sinä", "pres": "osaat", "past": "osasit", "spok": "sä osaat" },
+      { "pro": "hän", "pres": "osaa", "past": "osasi", "spok": "se osaa" },
+      { "pro": "me", "pres": "osaamme", "past": "osasimme", "spok": "me osataan" },
+      { "pro": "te", "pres": "osaatte", "past": "osasitte", "spok": "te osaatte" },
+      { "pro": "he", "pres": "osaavat", "past": "osasivat", "spok": "ne osaa" }
+    ],
+    "expressions": [
+      ["Osaan vähän suomea.", "I know a little Finnish."],
+      ["Osaatko uida?", "Can you swim?"],
+      ["Hän osasi auttaa.", "She knew how to help."],
+      ["Osaamme tehdä ruokaa.", "We know how to cook."],
+      ["He eivät osaa vastata.", "They do not know how to answer."]
+    ],
+    "story_fi": "En osannut puhua suomea ennen. Nyt osaan sanoa monta sanaa. Haluan osata enemmän huomenna.",
+    "story_en": "I did not know how to speak Finnish before. Now I can say many words. I want to know more tomorrow."
+  },
+  {
+    "fi": "opiskella",
+    "en": "to study",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
+    "conj": [
+      { "pro": "minä", "pres": "opiskelen", "past": "opiskelin", "spok": "mä opiskelen" },
+      { "pro": "sinä", "pres": "opiskelet", "past": "opiskelit", "spok": "sä opiskelet" },
+      { "pro": "hän", "pres": "opiskelee", "past": "opiskeli", "spok": "se opiskelee" },
+      { "pro": "me", "pres": "opiskelemme", "past": "opiskelimme", "spok": "me opiskellaan" },
+      { "pro": "te", "pres": "opiskelette", "past": "opiskelitte", "spok": "te opiskelette" },
+      { "pro": "he", "pres": "opiskelevat", "past": "opiskelivat", "spok": "ne opiskelee" }
+    ],
+    "expressions": [
+      ["Opiskelen suomea.", "I study Finnish."],
+      ["Missä opiskelet?", "Where do you study?"],
+      ["Hän opiskeli koko illan.", "She studied all evening."],
+      ["Opiskelemme yhdessä.", "We study together."],
+      ["He opiskelevat koulussa.", "They study at school."]
+    ],
+    "story_fi": "Opiskelen suomea joka päivä. Eilen opiskelin uusia sanoja. Tänään opiskelen verbejä.",
+    "story_en": "I study Finnish every day. Yesterday I studied new words. Today I am studying verbs."
+  },
+  {
+    "fi": "oppia",
+    "en": "to learn",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      { "pro": "minä", "pres": "opin", "past": "opin", "spok": "mä opin" },
+      { "pro": "sinä", "pres": "opit", "past": "opit", "spok": "sä opit" },
+      { "pro": "hän", "pres": "oppii", "past": "oppi", "spok": "se oppii" },
+      { "pro": "me", "pres": "opimme", "past": "opimme", "spok": "me opitaan" },
+      { "pro": "te", "pres": "opitte", "past": "opitte", "spok": "te opitte" },
+      { "pro": "he", "pres": "oppivat", "past": "oppivat", "spok": "ne oppii" }
+    ],
+    "expressions": [
+      ["Opin uusia sanoja.", "I learn new words."],
+      ["Opit nopeasti.", "You learn quickly."],
+      ["Hän oppi paljon eilen.", "She learned a lot yesterday."],
+      ["Opimme yhdessä.", "We learn together."],
+      ["Lapset oppivat leikkimällä.", "Children learn by playing."]
+    ],
+    "story_fi": "Opin yhden uuden verbin tänään. Kirjoitin sen vihkoon. Toivon, että opin sen hyvin.",
+    "story_en": "I learn one new verb today. I wrote it in my notebook. I hope that I learn it well."
+  },
+  {
+    "fi": "vastata",
+    "en": "to answer",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      { "pro": "minä", "pres": "vastaan", "past": "vastasin", "spok": "mä vastaan" },
+      { "pro": "sinä", "pres": "vastaat", "past": "vastasit", "spok": "sä vastaat" },
+      { "pro": "hän", "pres": "vastaa", "past": "vastasi", "spok": "se vastaa" },
+      { "pro": "me", "pres": "vastaamme", "past": "vastasimme", "spok": "me vastataan" },
+      { "pro": "te", "pres": "vastaatte", "past": "vastasitte", "spok": "te vastaatte" },
+      { "pro": "he", "pres": "vastaavat", "past": "vastasivat", "spok": "ne vastaa" }
+    ],
+    "expressions": [
+      ["Vastaan kysymykseen.", "I answer the question."],
+      ["Vastaatko minulle?", "Will you answer me?"],
+      ["Hän vastasi oikein.", "She answered correctly."],
+      ["Vastaamme pian.", "We will answer soon."],
+      ["He eivät vastanneet.", "They did not answer."]
+    ],
+    "story_fi": "Opettaja kysyi minulta kysymyksen. Vastasin hitaasti suomeksi. Opettaja sanoi, että vastasin hyvin.",
+    "story_en": "The teacher asked me a question. I answered slowly in Finnish. The teacher said that I answered well."
   }
 ]
-

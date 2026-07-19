@@ -122,3 +122,63 @@ pitää – past tense (all persons);pidin / pidit / piti / pidimme / piditte / 
 pitää – spoken Finnish (all persons);mä pidän / mun pitää / sä pidät / sun pitää / se pitää / me pidetään / te pidätte / ne pitää
 Translate to Finnish: I like coffee. / I have to go now. / She likes dogs. / Do you have to leave? / We liked the concert.;Pidän kahvista. / Minun pitää mennä nyt. / Hän pitää koirista. / Pitääkö sinun lähteä? / Me pidimme konsertista.
 Translate to Finnish: I like mornings. I always have to wake up early. I also like a quiet morning tea before work.;Pidän aamusta. Minun pitää aina herätä aikaisin. Pidän myös hiljaisesta aamuteestä ennen töitä.
+
+nukkua – present tense (all persons);nukun / nukut / nukkuu / nukumme / nukutte / nukkuvat
+nukkua – past tense (all persons);nukuin / nukuit / nukkui / nukuimme / nukuitte / nukkuivat
+nukkua – spoken Finnish (all persons);mä nukun / sä nukut / se nukkuu / me nukutaan / te nukutte / ne nukkuu
+Translate to Finnish: I sleep well. / Do you sleep enough? / She slept for a long time. / We are not sleeping yet. / The children are already asleep.;Nukun hyvin. / Nukutko tarpeeksi? / Hän nukkui pitkään. / Emme nuku vielä. / Lapset nukkuvat jo.
+Translate to Finnish: Yesterday I was tired and went to bed early. I slept for eight hours. Today I will surely sleep well again.;Eilen olin väsynyt ja menin aikaisin nukkumaan. Nukuin kahdeksan tuntia. Tänään nukun varmasti hyvin taas.
+
+syödä – present tense (all persons);syön / syöt / syö / syömme / syötte / syövät
+syödä – past tense (all persons);söin / söit / söi / söimme / söitte / söivät
+syödä – spoken Finnish (all persons);mä syön / sä syöt / se syö / me syödään / te syötte / ne syö
+Translate to Finnish: I eat porridge in the morning. / What are you eating for lunch? / She ate bread. / We eat together. / The children are eating dinner.;Syön aamulla puuroa. / Mitä syöt lounaaksi? / Hän söi leipää. / Syömme yhdessä. / Lapset syövät päivällistä.
+Translate to Finnish: Today I am eating at home. I am eating soup and bread. Yesterday I ate at a restaurant with my friend.;Tänään syön kotona. Syön keittoa ja leipää. Eilen söin ravintolassa ystäväni kanssa.
+
+juoda – present tense (all persons);juon / juot / juo / juomme / juotte / juovat
+juoda – past tense (all persons);join / joit / joi / joimme / joitte / joivat
+juoda – spoken Finnish (all persons);mä juon / sä juot / se juo / me juodaan / te juotte / ne juo
+Translate to Finnish: I drink water. / Do you drink coffee? / She drank tea. / We drink juice in the morning. / They drank together.;Juon vettä. / Juotko kahvia? / Hän joi teetä. / Juomme mehua aamulla. / He joivat yhdessä.
+Translate to Finnish: In the morning I drink coffee. During the day I drink a lot of water. Yesterday I also drank tea in the evening.;Aamulla juon kahvia. Päivällä juon paljon vettä. Eilen join myös teetä illalla.
+
+ymmärtää – present tense (all persons);ymmärrän / ymmärrät / ymmärtää / ymmärrämme / ymmärrätte / ymmärtävät
+ymmärtää – past tense (all persons);ymmärsin / ymmärsit / ymmärsi / ymmärsimme / ymmärsitte / ymmärsivät
+ymmärtää – spoken Finnish (all persons);mä ymmärrän / sä ymmärrät / se ymmärtää / me ymmärretään / te ymmärrätte / ne ymmärtää
+Translate to Finnish: I don't understand. / Do you understand this? / She understood the question. / We understand a little Finnish. / They did not understand the instructions.;En ymmärrä. / Ymmärrätkö tämän? / Hän ymmärsi kysymyksen. / Ymmärrämme vähän suomea. / He eivät ymmärtäneet ohjeita.
+Translate to Finnish: The teacher spoke slowly. I understood most of it. Now I understand the task better.;Opettaja puhui hitaasti. Ymmärsin suurimman osan. Nyt ymmärrän tehtävän paremmin.
+
+muistaa – present tense (all persons);muistan / muistat / muistaa / muistamme / muistatte / muistavat
+muistaa – past tense (all persons);muistin / muistit / muisti / muistimme / muistitte / muistivat
+muistaa – spoken Finnish (all persons);mä muistan / sä muistat / se muistaa / me muistetaan / te muistatte / ne muistaa
+Translate to Finnish: I remember your name. / Do you remember the keys? / She remembered the birthday. / We did not remember the time. / Remember to take a coat!;Muistan nimesi. / Muistatko avaimet? / Hän muisti syntymäpäivän. / Emme muistaneet aikaa. / Muista ottaa takki!
+Translate to Finnish: I remember a new word today. I wrote it in my notebook. Tomorrow I may remember it even better.;Muistan uuden sanan tänään. Kirjoitin sen vihkoon. Huomenna muistan sen ehkä vielä paremmin.
+
+unohtaa – present tense (all persons);unohdan / unohdat / unohtaa / unohdamme / unohdatte / unohtavat
+unohtaa – past tense (all persons);unohdin / unohdit / unohti / unohdimme / unohditte / unohtivat
+unohtaa – spoken Finnish (all persons);mä unohdan / sä unohdat / se unohtaa / me unohdetaan / te unohdatte / ne unohtaa
+Translate to Finnish: I forgot my phone at home. / Don't forget the keys. / She always forgets the name. / We forgot to buy milk. / Do you remember or did you forget?;Unohdin puhelimeni kotiin. / Älä unohda avaimia. / Hän unohtaa aina nimen. / Unohdimme ostaa maitoa. / Muistatko vai unohditko?
+Translate to Finnish: Yesterday I forgot my bus card at home. I remembered it only at the bus stop. Today I will not forget it.;Unohdin eilen bussikorttini kotiin. Muistin sen vasta bussipysäkillä. Tänään en unohda sitä.
+
+osata – present tense (all persons);osaan / osaat / osaa / osaamme / osaatte / osaavat
+osata – past tense (all persons);osasin / osasit / osasi / osasimme / osasitte / osasivat
+osata – spoken Finnish (all persons);mä osaan / sä osaat / se osaa / me osataan / te osaatte / ne osaa
+Translate to Finnish: I know a little Finnish. / Can you swim? / She knew how to help. / We know how to cook. / They do not know how to answer.;Osaan vähän suomea. / Osaatko uida? / Hän osasi auttaa. / Osaamme tehdä ruokaa. / He eivät osaa vastata.
+Translate to Finnish: I did not know how to speak Finnish before. Now I can say many words. I want to know more tomorrow.;En osannut puhua suomea ennen. Nyt osaan sanoa monta sanaa. Haluan osata enemmän huomenna.
+
+opiskella – present tense (all persons);opiskelen / opiskelet / opiskelee / opiskelemme / opiskelette / opiskelevat
+opiskella – past tense (all persons);opiskelin / opiskelit / opiskeli / opiskelimme / opiskelitte / opiskelivat
+opiskella – spoken Finnish (all persons);mä opiskelen / sä opiskelet / se opiskelee / me opiskellaan / te opiskelette / ne opiskelee
+Translate to Finnish: I study Finnish. / Where do you study? / She studied all evening. / We study together. / They study at school.;Opiskelen suomea. / Missä opiskelet? / Hän opiskeli koko illan. / Opiskelemme yhdessä. / He opiskelevat koulussa.
+Translate to Finnish: I study Finnish every day. Yesterday I studied new words. Today I am studying verbs.;Opiskelen suomea joka päivä. Eilen opiskelin uusia sanoja. Tänään opiskelen verbejä.
+
+oppia – present tense (all persons);opin / opit / oppii / opimme / opitte / oppivat
+oppia – past tense (all persons);opin / opit / oppi / opimme / opitte / oppivat
+oppia – spoken Finnish (all persons);mä opin / sä opit / se oppii / me opitaan / te opitte / ne oppii
+Translate to Finnish: I learn new words. / You learn quickly. / She learned a lot yesterday. / We learn together. / Children learn by playing.;Opin uusia sanoja. / Opit nopeasti. / Hän oppi paljon eilen. / Opimme yhdessä. / Lapset oppivat leikkimällä.
+Translate to Finnish: I learn one new verb today. I wrote it in my notebook. I hope that I learn it well.;Opin yhden uuden verbin tänään. Kirjoitin sen vihkoon. Toivon, että opin sen hyvin.
+
+vastata – present tense (all persons);vastaan / vastaat / vastaa / vastaamme / vastaatte / vastaavat
+vastata – past tense (all persons);vastasin / vastasit / vastasi / vastasimme / vastasitte / vastasivat
+vastata – spoken Finnish (all persons);mä vastaan / sä vastaat / se vastaa / me vastataan / te vastaatte / ne vastaa
+Translate to Finnish: I answer the question. / Will you answer me? / She answered correctly. / We will answer soon. / They did not answer.;Vastaan kysymykseen. / Vastaatko minulle? / Hän vastasi oikein. / Vastaamme pian. / He eivät vastanneet.
+Translate to Finnish: The teacher asked me a question. I answered slowly in Finnish. The teacher said that I answered well.;Opettaja kysyi minulta kysymyksen. Vastasin hitaasti suomeksi. Opettaja sanoi, että vastasin hyvin.
