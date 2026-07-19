@@ -92,6 +92,33 @@ These are the next proposed verbs. Verify their verb type and forms before addin
 | 29 | lukea | to read | 1 |
 | 30 | auttaa | to help | 1 |
 
+## Verbs backlog
+
+These are later candidates after the planned next batch. They are intentionally not yet assigned a batch number or verb type in this guide. Before moving one into the planned batch, verify its verb type and forms, then add it to the current catalog when complete.
+
+| Finnish | English |
+| ------- | ------- |
+| ymmärtää | to understand |
+| muistaa | to remember |
+| unohtaa | to forget |
+| osata | to know how to / to be able to |
+| opiskella | to study |
+| vastata | to answer |
+| pyytää | to request / to ask for |
+| keskustella | to discuss / to chat |
+| herätä | to wake up |
+| nousta | to get up / to rise |
+| pestä | to wash |
+| siivota | to clean |
+| uida | to swim |
+| kävellä | to walk |
+| juosta | to run |
+| ajaa | to drive |
+| matkustaa | to travel |
+| asua | to live |
+| etsiä | to search for |
+| avata | to open |
+
 ## Content-change checklist
 
 1. Read this guide and add or edit only `data/verbs.json`.
