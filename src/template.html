@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Finnish Core Verbs – Anki Cards</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Source+Serif+4:ital,wght@0,300;0,400;1,300&display=swap');
+
+  :root {
+    --bg: #faf7f2;
+    --card: #ffffff;
+    --accent: #c0392b;
+    --accent2: #2c3e50;
+    --muted: #888;
+    --border: #e8e0d5;
+    --tag-bg: #f0ebe3;
+    --fi: #2c3e50;
+    --spoken: #7a4f2e;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: var(--bg);
+    font-family: 'Source Serif 4', Georgia, serif;
+    color: #222;
+    min-height: 100vh;
+  }
+
+  header {
+    background: var(--accent2);
+    color: white;
+    padding: 2rem 2rem 1.5rem;
+    border-bottom: 4px solid var(--accent);
+  }
+  header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    letter-spacing: 0.02em;
+  }
+  header p { font-size: 0.9rem; opacity: 0.7; margin-top: 0.4rem; }
+
+  nav {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem 2rem;
+    background: var(--accent2);
+    border-bottom: 1px solid #1a252f;
+  }
+  nav button {
+    background: transparent;
+    border: 1px solid rgba(255,255,255,0.3);
+    color: white;
+    padding: 0.35rem 0.9rem;
+    border-radius: 20px;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.85rem;
+    transition: all 0.2s;
+  }
+  nav button:hover, nav button.active {
+    background: var(--accent);
+    border-color: var(--accent);
+  }
+
+  main {
+    max-width: 860px;
+    margin: 0 auto;
+    padding: 2rem 1.5rem;
+  }
+
+  .verb-section { display: none; }
+  .verb-section.visible { display: block; }
+
+  .verb-header {
+    margin-bottom: 1.5rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+  .verb-header h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.4rem;
+    color: var(--accent);
+  }
+  .verb-header .meaning {
+    font-size: 1.1rem;
+    color: var(--muted);
+    font-style: italic;
+  }
+
+  /* ANKI CARD */
+  .anki-card {
+    background: var(--card);
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    margin-bottom: 1.2rem;
+    overflow: hidden;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+  }
+  .card-front {
+    background: var(--tag-bg);
+    padding: 0.7rem 1.2rem;
+    font-size: 0.78rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  .card-front .tag {
+    background: var(--accent2);
+    color: white;
+    padding: 0.1rem 0.5rem;
+    border-radius: 10px;
+    font-size: 0.7rem;
+  }
+  .card-back {
+    padding: 1rem 1.2rem;
+  }
+
+  /* CONJUGATION TABLE */
+  .conj-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.93rem;
+  }
+  .conj-table th {
+    text-align: left;
+    padding: 0.4rem 0.6rem;
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.07em;
+    color: var(--muted);
+    border-bottom: 1px solid var(--border);
+  }
+  .conj-table td {
+    padding: 0.4rem 0.6rem;
+    border-bottom: 1px solid #f0ece6;
+    vertical-align: top;
+  }
+  .conj-table tr:last-child td { border-bottom: none; }
+  .pronoun { color: var(--muted); font-style: italic; font-size: 0.85rem; }
+  .present { color: var(--fi); font-weight: 500; }
+  .past { color: #555; }
+  .spoken { color: var(--spoken); font-style: italic; }
+
+  /* EXPRESSIONS */
+  .expressions-list {
+    list-style: none;
+    padding: 0;
+  }
+  .expressions-list li {
+    padding: 0.55rem 0;
+    border-bottom: 1px solid #f0ece6;
+    line-height: 1.5;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+  .expressions-list li:last-child { border-bottom: none; }
+  .fi-text { color: var(--fi); font-weight: 500; }
+  .en-text { color: var(--muted); font-style: italic; font-size: 0.9rem; }
+
+  /* STORY */
+  .story-box {
+    background: linear-gradient(135deg, #fdf6ee 0%, #f7efe3 100%);
+    border-left: 3px solid var(--accent);
+    border-radius: 0 8px 8px 0;
+    padding: 1rem 1.2rem;
+  }
+  .story-box p {
+    line-height: 1.7;
+    font-size: 0.95rem;
+  }
+  .story-box .fi-story { color: var(--fi); margin-bottom: 0.6rem; }
+  .story-box .en-story { color: var(--muted); font-style: italic; font-size: 0.88rem; }
+
+  .verbtype-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    background: var(--accent2);
+    color: white;
+    padding: 0.2rem 0.7rem 0.2rem 0.5rem;
+    border-radius: 20px;
+    font-size: 0.72rem;
+    font-family: 'Source Serif 4', serif;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+  }
+  .verbtype-badge .vt-num {
+    background: var(--accent);
+    color: white;
+    border-radius: 50%;
+    width: 1.4em;
+    height: 1.4em;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 0.85em;
+  }
+  .verbtype-rule {
+    font-size: 0.8rem;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.35rem;
+  }
+  .verb-header-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.2rem;
+  }
+
+  .section-label {
+    font-size: 0.72rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--accent);
+    margin: 1.4rem 0 0.6rem;
+    font-weight: 600;
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Finnish Core Verbs</h1>
+  <p>Conjugations · Expressions · Stories — Anki Cards</p>
+</header>
+
+<nav id="nav"></nav>
+
+<main id="main"></main>
+
+<script>
+const verbs = /*__VERBS__*/;
+
+function buildNav() {
+  const nav = document.getElementById('nav');
+  verbs.forEach((v, i) => {
+    const btn = document.createElement('button');
+    btn.textContent = v.fi;
+    btn.onclick = () => showVerb(i);
+    btn.id = `nav-${i}`;
+    nav.appendChild(btn);
+  });
+}
+
+function showVerb(idx) {
+  document.querySelectorAll('.verb-section').forEach(s => s.classList.remove('visible'));
+  document.querySelectorAll('nav button').forEach(b => b.classList.remove('active'));
+  document.getElementById(`section-${idx}`).classList.add('visible');
+  document.getElementById(`nav-${idx}`).classList.add('active');
+}
+
+function buildSections() {
+  const main = document.getElementById('main');
+  verbs.forEach((v, i) => {
+    const sec = document.createElement('div');
+    sec.className = 'verb-section';
+    sec.id = `section-${i}`;
+
+    // Note for pitää
+    const pitaaNote = v.fi === 'pitää' ? '<br><small style="color:#888;font-style:italic;">Note: pitää has 3 meanings: to like (pidän kahvista), must (minun pitää), to hold (pidän kiinni). Spoken forms vary by meaning.</small>' : '';
+
+    sec.innerHTML = `
+      <div class="verb-header">
+        <h2>${v.fi}</h2>
+        <div class="verb-header-meta">
+          <span class="meaning">${v.en}</span>
+          <div style="display:flex;align-items:center;gap:0.6rem;flex-wrap:wrap;">
+            <span class="verbtype-badge"><span class="vt-num">${v.verbtype}</span> verb type ${v.verbtype}</span>
+            <span class="verbtype-rule">${v.verbrule}</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- CARD 1: Conjugation -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> Conjugate <strong>${v.fi}</strong> (present / past / spoken)
+        </div>
+        <div class="card-back">
+          <table class="conj-table">
+            <thead><tr>
+              <th>Pronoun</th>
+              <th>Present</th>
+              <th>Past</th>
+              <th>Spoken</th>
+            </tr></thead>
+            <tbody>
+              ${v.conj.map(r => `<tr>
+                <td class="pronoun">${r.pro}</td>
+                <td class="present">${r.pres}</td>
+                <td class="past">${r.past}</td>
+                <td class="spoken">${r.spok}</td>
+              </tr>`).join('')}
+            </tbody>
+          </table>
+          ${pitaaNote}
+        </div>
+      </div>
+
+      <!-- CARD 2: Expressions -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> 5 expressions with <strong>${v.fi}</strong>
+        </div>
+        <div class="card-back">
+          <ul class="expressions-list">
+            ${v.expressions.map(([fi, en]) => `<li>
+              <span class="fi-text">${fi}</span>
+              <span class="en-text">${en}</span>
+            </li>`).join('')}
+          </ul>
+        </div>
+      </div>
+
+      <!-- CARD 3: Story -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> Short story using <strong>${v.fi}</strong>
+        </div>
+        <div class="card-back">
+          <div class="story-box">
+            <p class="fi-story">${v.story_fi}</p>
+            <p class="en-story">${v.story_en}</p>
+          </div>
+        </div>
+      </div>
+    `;
+    main.appendChild(sec);
+  });
+}
+
+buildNav();
+buildSections();
+showVerb(0);
+</script>
+</body>
+</html>

@@ -1,0 +1,124 @@
+#separator:semicolon
+#html:false
+#notetype:Basic
+#deck:Finnish::Core Verbs
+
+olla – present tense (all persons);olen / olet / on / olemme / olette / ovat
+olla – past tense (all persons);olin / olit / oli / olimme / olitte / olivat
+olla – spoken Finnish (all persons);mä oon / sä oot / se on / me ollaan / te ootte / ne on
+Translate to Finnish: I am tired. / She is at home. / We were at the shop. / Do you have time? (lit. Is there time with you?) / That's a good idea.;Olen väsynyt. / Hän on kotona. / Olimme kaupassa. / Onko sinulla aikaa? / Se on hyvä idea.
+Translate to Finnish: Yesterday I was at work all day. I was really tired. In the evening I was home and I was happy.;Eilen olin töissä koko päivän. Olin todella väsynyt. Illalla olin kotona ja olin onnellinen.
+
+mennä – present tense (all persons);menen / menet / menee / menemme / menette / menevät
+mennä – past tense (all persons);menin / menit / meni / menimme / menitte / menivät
+mennä – spoken Finnish (all persons);mä meen / sä meet / se menee / me mennään / te meette / ne menee
+Translate to Finnish: I go to work every day. / Where is she going? / We went to the cinema. / Are you going to the shop? / The bus goes fast.;Menen töihin joka päivä. / Missä hän menee? / Menimme elokuviin. / Menetkö kauppaan? / Bussi menee nopeasti.
+Translate to Finnish: Yesterday I went to work. After work I went to the shop. Then I went home.;Eilen menin töihin. Töiden jälkeen menin kauppaan. Sitten menin kotiin.
+
+tulla – present tense (all persons);tulen / tulet / tulee / tulemme / tulette / tulevat
+tulla – past tense (all persons);tulin / tulit / tuli / tulimme / tulitte / tulivat
+tulla – spoken Finnish (all persons);mä tuun / sä tuut / se tulee / me tullaan / te tuutte / ne tulee
+Translate to Finnish: I'm coming soon. / She came late. / Is he coming to the party? / Winter is coming soon. / We came by train.;Tulen kohta. / Hän tuli myöhässä. / Tuleeko hän juhliin? / Talvi tulee pian. / Tulimme junalla.
+Translate to Finnish: My friend came to visit. She came by bus. We cooked food and she left in the evening.;Kaverini tuli käymään. Hän tuli bussilla. Me teimme ruokaa ja hän lähti illalla.
+
+tehdä – present tense (all persons);teen / teet / tekee / teemme / teette / tekevät
+tehdä – past tense (all persons);tein / teit / teki / teimme / teitte / tekivät
+tehdä – spoken Finnish (all persons);mä teen / sä teet / se tekee / me tehään / te teette / ne tekee
+Translate to Finnish: What are you doing at the weekend? / I'm making food. / She did good work. / We made a deal. / I don't know what to do.;Mitä teet viikonloppuna? / Teen ruokaa. / Hän teki hyvää työtä. / Teimme sopimuksen. / En tiedä mitä tehdä.
+Translate to Finnish: Today I'm doing the cleaning. First I do the kitchen, then I do the living room. In the evening I make food.;Tänään teen siivouksen. Ensin teen keittiön, sitten teen olohuoneen. Illalla teen ruokaa.
+
+saada – present tense (all persons);saan / saat / saa / saamme / saatte / saavat
+saada – past tense (all persons);sain / sait / sai / saimme / saitte / saivat
+saada – spoken Finnish (all persons);mä saan / sä saat / se saa / me saadaan / te saatte / ne saa
+Translate to Finnish: I got a letter today. / Can you get help? / Are you getting help? / They will receive a prize. / We didn't get a reply. / May I have more water?;Sain kirjeen tänään. / Saatko apua? / He saavat palkkion. / Emme saaneet vastausta. / Saanko lisää vettä?
+Translate to Finnish: Yesterday I got a call from work. I got good news. In the evening I also received a letter at home.;Sain eilen puhelun töistä. Sain hyvät uutiset. Illalla sain myös kirjeen kotiin.
+
+antaa – present tense (all persons);annan / annat / antaa / annamme / annatte / antavat
+antaa – past tense (all persons);annoin / annoit / antoi / annoimme / annoitte / antoivat
+antaa – spoken Finnish (all persons);mä annan / sä annat / se antaa / me annetaan / te annatte / ne antaa
+Translate to Finnish: I'll give you the book. / She gave me a gift. / Give me a moment. / We gave feedback. / Can you give me advice?;Annan sinulle kirjan. / Hän antoi minulle lahjaa. / Anna minulle hetki. / Annoimme palautetta. / Voitko antaa neuvon?
+Translate to Finnish: I gave my friend a gift. She gave me a hug. Then we gave each other congratulations.;Annoin kaverilleni lahjan. Hän antoi minulle halauksen. Sitten annoimme toisillemme onnittelut.
+
+ottaa – present tense (all persons);otan / otat / ottaa / otamme / otatte / ottavat
+ottaa – past tense (all persons);otin / otit / otti / otimme / otitte / ottivat
+ottaa – spoken Finnish (all persons);mä otan / sä otat / se ottaa / me otetaan / te otatte / ne ottaa
+Translate to Finnish: I'll have a coffee. / She took a taxi. / Take it easy. / We took a photo. / Can you take this?;Otan kahvin. / Hän otti taksin. / Ota se rauhallisesti. / Otimme valokuvan. / Voitko ottaa tämän?
+Translate to Finnish: In the morning I had a shower. Then I had breakfast. I also had a coffee before leaving for work.;Otin aamulla suihkun. Sitten otin aamiaisen. Otin myös kahvia ennen töihin lähtöä.
+
+haluta – present tense (all persons);haluan / haluat / haluaa / haluamme / haluatte / haluavat
+haluta – past tense (all persons);halusin / halusit / halusi / halusimme / halusitte / halusivat
+haluta – spoken Finnish (all persons);mä haluun / sä haluut / se haluaa / me halutaan / te haluutte / ne haluaa
+Translate to Finnish: I want to learn Finnish. / What do you want? / She wanted to come along. / We want more time. / I don't want to go.;Haluan oppia suomea. / Mitä sinä haluat? / Hän halusi tulla mukaan. / Haluamme lisää aikaa. / En halua mennä.
+Translate to Finnish: I wanted to go outside, but it was raining. Then I wanted to cook. In the end I just wanted to sleep.;Halusin mennä ulos, mutta satoi. Sitten halusin tehdä ruokaa. Lopulta halusin vain nukkua.
+
+voida – present tense (all persons);voin / voit / voi / voimme / voitte / voivat
+voida – past tense (all persons);voin / voit / voi / voimme / voitte / voivat
+voida – spoken Finnish (all persons);mä voin / sä voit / se voi / me voidaan / te voitte / ne voi
+Translate to Finnish: I can help you. / Can you come tomorrow? / She can't eat gluten. / Can we talk? / I can't believe it.;Voin auttaa sinua. / Voitko tulla huomenna? / Hän ei voi syödä gluteenia. / Voimmeko puhua? / En voi uskoa sitä.
+Translate to Finnish: I couldn't sleep yesterday. I could still go to work though. In the evening I could finally rest.;En voinut nukkua eilen. Voin kuitenkin mennä töihin. Illalla voin vihdoin levätä.
+
+lähteä – present tense (all persons);lähden / lähdet / lähtee / lähdemme / lähdette / lähtevät
+lähteä – past tense (all persons);lähdin / lähdit / lähti / lähdimme / lähditte / lähtivät
+lähteä – spoken Finnish (all persons);mä lähden / sä lähdet / se lähtee / me lähdetään / te lähdette / ne lähtee
+Translate to Finnish: I leave for work at eight. / She left without a word. / When are you leaving on holiday? / The bus leaves in five minutes. / Let's go together!;Lähden töihin kahdeksalta. / Hän lähti ilman sanaakaan. / Milloin lähdette lomalle? / Bussi lähtee viiden minuutin päästä. / Lähdetään yhdessä!
+Translate to Finnish: I left home early. I left by bus to the station. From there we left by train to the city.;Lähdin kotoa aikaisin. Lähdin bussilla asemalle. Sieltä lähdimme junalla kaupunkiin.
+
+tietää – present tense (all persons);tiedän / tiedät / tietää / tiedämme / tiedätte / tietävät
+tietää – past tense (all persons);tiesin / tiesit / tiesi / tiesimme / tiesitte / tiesivät
+tietää – spoken Finnish (all persons);mä tiedän / sä tiedät / se tietää / me tiedetään / te tiedätte / ne tietää
+Translate to Finnish: I don't know the answer. / Do you know where he is? / She knew all the answers. / I already know that. / Nobody knew anything.;En tiedä vastausta. / Tiedätkö missä hän on? / Hän tiesi kaikki vastaukset. / Tiedän sen jo. / Kukaan ei tiennyt mitään.
+Translate to Finnish: I didn't know what to do. I only knew that I had to leave. Now I know it was the right decision.;En tiennyt, mitä tehdä. Tiesin vain, että piti lähteä. Nyt tiedän, että se oli oikea päätös.
+
+sanoa – present tense (all persons);sanon / sanot / sanoo / sanomme / sanotte / sanovat
+sanoa – past tense (all persons);sanoin / sanoit / sanoi / sanoimme / sanoitte / sanoivat
+sanoa – spoken Finnish (all persons);mä sanon / sä sanot / se sanoo / me sanotaan / te sanotte / ne sanoo
+Translate to Finnish: What did you say? / She said goodbye. / Say it again. / They say that... / It is said that... / I can't say / I don't know.;Mitä sinä sanoit? / Hän sanoi hyvästit. / Sano se uudestaan. / Sanotaan, että... / En osaa sanoa.
+Translate to Finnish: She said she'd be late. I said that was fine. In the end she said sorry.;Hän sanoi, että tulee myöhässä. Sanoin, että se on ok. Lopulta hän sanoi anteeksi.
+
+nähdä – present tense (all persons);näen / näet / näkee / näemme / näette / näkevät
+nähdä – past tense (all persons);näin / näit / näki / näimme / näitte / näkivät
+nähdä – spoken Finnish (all persons);mä nään / sä nääт / se näkee / me nähdään / te näette / ne näkee
+Translate to Finnish: See you tomorrow! / I can't see anything. / I saw him yesterday. / Do you see that house? / I wanted to see you.;Nähdään huomenna! / En näe mitään. / Näin hänet eilen. / Näetkö sen talon? / Halusin nähdä sinut.
+Translate to Finnish: I saw an old friend on the street. She didn't see me at first. Then we looked at each other and smiled.;Näin vanhan ystäväni kadulla. Hän ei nähnyt minua ensin. Sitten katsoimme toisiamme ja hymylimme.
+
+kysyä – present tense (all persons);kysyn / kysyt / kysyy / kysymme / kysytte / kysyvät
+kysyä – past tense (all persons);kysyin / kysyit / kysyi / kysyimme / kysyitte / kysyivät
+kysyä – spoken Finnish (all persons);mä kysyn / sä kysyt / se kysyy / me kysytään / te kysytte / ne kysyy
+Translate to Finnish: I can ask her. / I'll ask for directions. / She asked my name. / Let's ask together. / May I ask something?;Voin kysyä häneltä. / Kysyn tietä. / Hän kysyi nimeni. / Kysytään yhdessä. / Saanko kysyä jotain?
+Translate to Finnish: I got lost in the city. I asked a passer-by for directions. They asked where I was from and helped me.;Eksyin kaupungissa. Kysyin tietä ohikulkijalta. Hän kysyi, mistä olin kotoisin, ja auttoi minua.
+
+ajatella – present tense (all persons);ajattelen / ajattelet / ajattelee / ajattelemme / ajattelette / ajattelevat
+ajatella – past tense (all persons);ajattelin / ajattelit / ajatteli / ajattelimme / ajattelitte / ajattelivat
+ajatella – spoken Finnish (all persons);mä ajattelen / sä ajattelet / se ajattelee / me ajatellaan / te ajattelette / ne ajattelee
+Translate to Finnish: What do you think about it? / I'm thinking of you. / She thought for a moment. / I didn't think of that. / Let's think together.;Mitä ajattelet siitä? / Ajattelen sinua. / Hän ajatteli hetken. / En ajatellut sitä. / Ajatellaan yhdessä.
+Translate to Finnish: I thought a lot yesterday evening. I thought about work and the future. In the end I thought everything would work out.;Ajattelin paljon eilen illalla. Ajattelin töitä ja tulevaisuutta. Lopulta ajattelin, että kaikki järjestyy.
+
+tarvita – present tense (all persons);tarvitsen / tarvitset / tarvitsee / tarvitsemme / tarvitsette / tarvitsevat
+tarvita – past tense (all persons);tarvitsin / tarvitsit / tarvitsi / tarvitsimme / tarvitsitte / tarvitsivat
+tarvita – spoken Finnish (all persons);mä tarviin / sä tarvit / se tarvii / me tarvitaan / te tarvitte / ne tarvii
+Translate to Finnish: I need help. / Do you need anything? / She needed more time. / We don't need it. / What do you need from the shop?;Tarvitsen apua. / Tarvitsetko jotain? / Hän tarvitsi lisää aikaa. / Emme tarvitse sitä. / Mitä tarvitset kaupasta?
+Translate to Finnish: I needed a new coat. I went to the shop and also needed new shoes. I needed more money than I thought.;Tarvitsin uuden takin. Menin kauppaan ja tarvitsin myös uudet kengät. Tarvitsin enemmän rahaa kuin luulin.
+
+löytää – present tense (all persons);löydän / löydät / löytää / löydämme / löydätte / löytävät
+löytää – past tense (all persons);löysin / löysit / löysi / löysimme / löysitte / löysivät
+löytää – spoken Finnish (all persons);mä löydän / sä löydät / se löytää / me löydetään / te löydätte / ne löytää
+Translate to Finnish: I can't find my keys. / I found a wallet on the street. / Can you find your way yourself? / They found a solution. / Hopefully you'll find it.;En löydä avaimiani. / Löysin lompakon kadulta. / Löydätkö tien itse? / He löysivät ratkaisun. / Toivottavasti löydät sen.
+Translate to Finnish: I searched for my phone everywhere. Eventually I found it under the sofa. At the same time I also found a missing earring.;Etsin puhelintani kaikkialta. Lopulta löysin sen sohvan alta. Löysin samalla myös kadonneen korvakoru.
+
+odottaa – present tense (all persons);odotan / odotat / odottaa / odotamme / odotatte / odottavat
+odottaa – past tense (all persons);odotin / odotit / odotti / odotimme / odotitte / odottivat
+odottaa – spoken Finnish (all persons);mä odotan / sä odotat / se odottaa / me odotetaan / te odotatte / ne odottaa
+Translate to Finnish: I'm waiting for the bus. / Wait a moment! / She waited for a long time. / I'm looking forward to summer. / What do you expect from life?;Odotan bussia. / Odota hetki! / Hän odotti pitkään. / Odotan innolla kesää. / Mitä odotat elämältä?
+Translate to Finnish: I waited for my friend in a café. I had already waited half an hour. She finally came and we waited together for a table.;Odotin ystävääni kahvilassa. Odotin jo puoli tuntia. Hän tuli lopulta ja odotimme yhdessä pöytää.
+
+käydä – present tense (all persons);käyn / käyt / käy / käymme / käytte / käyvät
+käydä – past tense (all persons);kävin / kävit / kävi / kävimme / kävitte / kävivät
+käydä – spoken Finnish (all persons);mä käyn / sä käyt / se käy / me käydään / te käytte / ne käy
+Translate to Finnish: I'll pop to the shop later. / She comes here often. / We visited Tampere. / Come in! / Does tomorrow work? / Is tomorrow OK?;Käyn kaupassa myöhemmin. / Hän käy usein täällä. / Kävimme Tampereella. / Käy sisään! / Käykö huomenna?
+Translate to Finnish: I visited the library yesterday. I go there every week. I also popped into a café before heading home.;Kävin eilen kirjastossa. Käyn siellä joka viikko. Kävin myös kahvilassa ennen kotiin menoa.
+
+pitää – present tense (all persons);pidän / pidät / pitää / pidämme / pidätte / pitävät
+pitää – past tense (all persons);pidin / pidit / piti / pidimme / piditte / pitivät
+pitää – spoken Finnish (all persons);mä pidän / mun pitää / sä pidät / sun pitää / se pitää / me pidetään / te pidätte / ne pitää
+Translate to Finnish: I like coffee. / I have to go now. / She likes dogs. / Do you have to leave? / We liked the concert.;Pidän kahvista. / Minun pitää mennä nyt. / Hän pitää koirista. / Pitääkö sinun lähteä? / Me pidimme konsertista.
+Translate to Finnish: I like mornings. I always have to wake up early. I also like a quiet morning tea before work.;Pidän aamusta. Minun pitää aina herätä aikaisin. Pidän myös hiljaisesta aamuteestä ennen töitä.
