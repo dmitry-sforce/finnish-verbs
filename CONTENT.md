@@ -50,7 +50,7 @@ Use this document when adding or editing Finnish learning content. It supplement
 
 ## Current catalog
 
-`data/verbs.json` remains the canonical source of completed content. Keep the table below synchronized with its array order whenever a verb is added, removed, or reordered. It currently contains 21 verbs:
+`data/verbs.json` remains the canonical source of completed content. Keep the table below synchronized with its array order whenever a verb is added, removed, or reordered. It currently contains 20 verbs:
 
 | # | Finnish | English | VT |
 | - | ------- | ------- | -- |
@@ -74,50 +74,79 @@ Use this document when adding or editing Finnish learning content. It supplement
 | 18 | odottaa | to wait / to expect | 1 |
 | 19 | käydä | to visit / to go briefly | 2 |
 | 20 | pitää | to like / must / to hold | 3 |
-
 ## Planned next batch
 
-These are the next proposed verbs. Verify their verb type and forms before adding them. When adding a planned verb, move it to the current catalog and update its number here.Uusi
+These are the next proposed verbs from the Uusi kielemme source list. Verify their forms before adding them. When adding a planned verb, move it to the current catalog and update its number here.
 
 | # | Finnish | English | Expected VT |
 | - | ------- | ------- | ----------- |
 | 21 | nukkua | to sleep | 1 |
 | 22 | syödä | to eat | 2 |
 | 23 | juoda | to drink | 2 |
-| 24 | puhua | to speak | 1 |
-| 25 | kertoa | to tell / to narrate | 1 |
-| 26 | oppia | to learn | 1 |
-| 27 | ostaa | to buy | 1 |
-| 28 | kirjoittaa | to write | 1 |
-| 29 | lukea | to read | 1 |
-| 30 | auttaa | to help | 1 |
+| 24 | ymmärtää | to understand | 1 |
+| 25 | muistaa | to remember | 1 |
+| 26 | unohtaa | to forget | 1 |
+| 27 | osata | to know how to / to be able to | 4 |
+| 28 | opiskella | to study | 3 |
+| 29 | oppia | to learn | 1 |
+| 30 | vastata | to answer | 4 |
 
 ## Verbs backlog
 
-These are later candidates after the planned next batch. They are intentionally not yet assigned a batch number or verb type in this guide. Before moving one into the planned batch, verify its verb type and forms, then add it to the current catalog when complete.
+This is the first 50 verbs from [Uusi kielemme’s “Your First 100 Finnish Verbs” list](https://uusikielemme.fi/finnish-vocabulary/vocabulary-lists/your-first-100-finnish-verbs-finnish-for-beginners). Use it as the approved source pool for future batches. “Completed” reflects `data/verbs.json`; “planned” is the next batch; “available” has not yet been scheduled.
 
-| Finnish | English |
-| ------- | ------- |
-| ymmärtää | to understand |
-| muistaa | to remember |
-| unohtaa | to forget |
-| osata | to know how to / to be able to |
-| opiskella | to study |
-| vastata | to answer |
-| pyytää | to request / to ask for |
-| keskustella | to discuss / to chat |
-| herätä | to wake up |
-| nousta | to get up / to rise |
-| pestä | to wash |
-| siivota | to clean |
-| uida | to swim |
-| kävellä | to walk |
-| juosta | to run |
-| ajaa | to drive |
-| matkustaa | to travel |
-| asua | to live |
-| etsiä | to search for |
-| avata | to open |
+| Source # | Finnish | English | VT | Project status |
+| -------- | ------- | ------- | -- | -------------- |
+| 1 | olla | to be | 3 | completed |
+| 2 | istua | to sit | 1 | available |
+| 3 | seisoa | to stand | 1 | available |
+| 4 | syödä | to eat | 2 | planned |
+| 5 | juoda | to drink | 2 | planned |
+| 6 | odottaa | to wait | 1 | completed |
+| 7 | ymmärtää | to understand | 1 | planned |
+| 8 | muistaa | to remember | 1 | planned |
+| 9 | unohtaa | to forget | 1 | planned |
+| 10 | ajatella | to think | 3 | completed |
+| 11 | tietää | to know | 1 | completed |
+| 12 | osata | to know how to | 4 | planned |
+| 13 | opiskella | to study | 3 | planned |
+| 14 | oppia | to learn | 1 | planned |
+| 15 | kysyä | to ask | 1 | completed |
+| 16 | vastata | to answer | 4 | planned |
+| 17 | pyytää | to request | 1 | available |
+| 18 | sanoa | to say | 1 | completed |
+| 19 | kertoa | to tell | 1 | available |
+| 20 | keskustella | to chat | 3 | available |
+| 21 | nukkua | to sleep | 1 | planned |
+| 22 | herätä | to wake up | 4 | available |
+| 23 | nousta | to get up | 3 | available |
+| 24 | maata | to lie down | 4 | available |
+| 25 | pestä | to wash | 3 | available |
+| 26 | tiskata | to wash dishes | 4 | available |
+| 27 | siivota | to clean | 4 | available |
+| 28 | imuroida | to vacuum | 2 | available |
+| 29 | uida | to swim | 2 | available |
+| 30 | kävellä | to walk | 3 | available |
+| 31 | pyöräillä | to ride a bike | 3 | available |
+| 32 | ajaa | to drive | 1 | available |
+| 33 | juosta | to run | 3 | available |
+| 34 | pelata | to play sports | 4 | available |
+| 35 | leikkiä | to play (child) | 1 | available |
+| 36 | soittaa | to play / to call | 1 | available |
+| 37 | ottaa | to take | 1 | completed |
+| 38 | antaa | to give | 1 | completed |
+| 39 | lainata | to borrow / lend | 4 | available |
+| 40 | tavata | to meet | 4 | available |
+| 41 | tutustua | to get to know | 1 | available |
+| 42 | tehdä | to do | 2 | completed |
+| 43 | nähdä | to see | 2 | completed |
+| 44 | katsoa | to watch | 1 | available |
+| 45 | tulla | to come | 3 | completed |
+| 46 | mennä | to go | 3 | completed |
+| 47 | lähteä | to leave | 1 | completed |
+| 48 | jäädä | to stay | 2 | available |
+| 49 | saapua | to arrive | 1 | available |
+| 50 | käydä | to visit | 2 | completed |
 
 ## Content-change checklist
 
