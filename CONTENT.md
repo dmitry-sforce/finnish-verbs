@@ -10,6 +10,11 @@ Use this document when adding or editing Finnish learning content. It supplement
 {
   "fi": "mennä",
   "en": "to go",
+  "negative": {
+    "present": "en mene",
+    "imperfect": "en mennyt",
+    "perfect": "en ole mennyt"
+  },
   "verbtype": 3,
   "verbrule": "type 3 · …",
   "conj": [
@@ -27,6 +32,8 @@ Use this document when adding or editing Finnish learning content. It supplement
 
 - `fi`: Finnish infinitive; it must be unique.
 - `en`: concise English meaning.
+- `negative`: first-person singular negative examples. It must contain `present`,
+  `imperfect`, and `perfect` as complete forms beginning with `en`.
 - `verbtype`: integer from 1 to 6.
 - `verbrule`: short learner-friendly explanation of the verb-type pattern or an irregularity.
 - `conj`: exactly six rows, always in this order: `minä`, `sinä`, `hän`, `me`, `te`, `he`. Every row needs `pro`, `pres`, `past`, and `spok`.
