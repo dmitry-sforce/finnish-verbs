@@ -1,8 +1,9 @@
 import { readFile } from 'node:fs/promises';
 import { pathToFileURL } from 'node:url';
 
-const requiredVerbFields = ['fi', 'en', 'verbtype', 'verbrule', 'conj', 'expressions', 'story_fi', 'story_en'];
+const requiredVerbFields = ['fi', 'en', 'negative', 'verbtype', 'verbrule', 'conj', 'expressions', 'story_fi', 'story_en'];
 const requiredConjugationFields = ['pro', 'pres', 'past', 'spok'];
+const requiredNegativeFields = ['present', 'imperfect', 'perfect'];
 
 export function validateVerbs(verbs) {
   const errors = [];
@@ -26,6 +27,17 @@ export function validateVerbs(verbs) {
 
     if (!Number.isInteger(verb.verbtype) || verb.verbtype < 1 || verb.verbtype > 6) {
       errors.push(`${label}: verbtype must be an integer from 1 to 6.`);
+    }
+
+    if (!verb.negative || typeof verb.negative !== 'object' || Array.isArray(verb.negative)) {
+      errors.push(`${label}: negative must be an object.`);
+    } else {
+      for (const field of requiredNegativeFields) {
+        const value = verb.negative[field];
+        if (typeof value !== 'string' || !value.startsWith('en ')) {
+          errors.push(`${label}: negative.${field} must be a complete minä form beginning with "en ".`);
+        }
+      }
     }
 
     if (!Array.isArray(verb.conj) || verb.conj.length !== 6) {

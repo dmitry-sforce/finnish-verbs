@@ -23,6 +23,7 @@ function ankiText(verbs) {
       `${verb.fi} – present tense (all persons);${forms('pres')}`,
       `${verb.fi} – past tense (all persons);${forms('past')}`,
       `${verb.fi} – spoken Finnish (all persons);${forms('spok')}`,
+      `${verb.fi} – negative forms (minä);present: ${verb.negative.present} / imperfect: ${verb.negative.imperfect} / perfect: ${verb.negative.perfect}`,
       `Translate to Finnish: ${englishExpressions};${finnishExpressions}`,
       `Translate to Finnish: ${verb.story_en};${verb.story_fi}`,
       '',

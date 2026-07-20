@@ -152,6 +152,14 @@
   .past { color: #555; }
   .spoken { color: var(--spoken); font-style: italic; }
 
+  /* NEGATIVE FORMS */
+  .negative-note {
+    margin: 0 0 0.7rem;
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  .negative-form { color: var(--fi); font-weight: 500; }
+
   /* EXPRESSIONS */
   .expressions-list {
     list-style: none;
@@ -310,7 +318,28 @@ function buildSections() {
         </div>
       </div>
 
-      <!-- CARD 2: Expressions -->
+      <!-- CARD 2: Negative forms -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> Negative forms of <strong>${v.fi}</strong> <em>(minä form)</em>
+        </div>
+        <div class="card-back">
+          <p class="negative-note">Each example uses <strong>en</strong>: the first-person singular negative form.</p>
+          <table class="conj-table">
+            <thead><tr>
+              <th>Tense</th>
+              <th>Negative</th>
+            </tr></thead>
+            <tbody>
+              <tr><td class="pronoun">Present</td><td class="negative-form">${v.negative.present}</td></tr>
+              <tr><td class="pronoun">Imperfect</td><td class="negative-form">${v.negative.imperfect}</td></tr>
+              <tr><td class="pronoun">Perfect</td><td class="negative-form">${v.negative.perfect}</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- CARD 3: Expressions -->
       <div class="anki-card">
         <div class="card-front">
           <span class="tag">FRONT</span> 5 expressions with <strong>${v.fi}</strong>
@@ -325,7 +354,7 @@ function buildSections() {
         </div>
       </div>
 
-      <!-- CARD 3: Story -->
+      <!-- CARD 4: Story -->
       <div class="anki-card">
         <div class="card-front">
           <span class="tag">FRONT</span> Short story using <strong>${v.fi}</strong>

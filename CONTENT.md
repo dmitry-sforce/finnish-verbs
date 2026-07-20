@@ -33,7 +33,9 @@ Use this document when adding or editing Finnish learning content. It supplement
 - `fi`: Finnish infinitive; it must be unique.
 - `en`: concise English meaning.
 - `negative`: first-person singular negative examples. It must contain `present`,
-  `imperfect`, and `perfect` as complete forms beginning with `en`.
+  `imperfect`, and `perfect` as complete forms beginning with `en`. These appear
+  in the reference as `minä` forms; do not add person-specific negative forms to
+  `conj`.
 - `verbtype`: integer from 1 to 6.
 - `verbrule`: short learner-friendly explanation of the verb-type pattern or an irregularity.
 - `conj`: exactly six rows, always in this order: `minä`, `sinä`, `hän`, `me`, `te`, `he`. Every row needs `pro`, `pres`, `past`, and `spok`.

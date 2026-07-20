@@ -152,6 +152,14 @@
   .past { color: #555; }
   .spoken { color: var(--spoken); font-style: italic; }
 
+  /* NEGATIVE FORMS */
+  .negative-note {
+    margin: 0 0 0.7rem;
+    color: var(--muted);
+    font-size: 0.88rem;
+  }
+  .negative-form { color: var(--fi); font-weight: 500; }
+
   /* EXPRESSIONS */
   .expressions-list {
     list-style: none;
@@ -245,6 +253,11 @@
 const verbs = [
   {
     "fi": "olla",
+    "negative": {
+      "present": "en ole",
+      "imperfect": "en ollut",
+      "perfect": "en ole ollut"
+    },
     "en": "to be",
     "verbtype": 3,
     "verbrule": "type 3 · irregular; stem ends in two consonants + vowel (-lla/-llä etc.)",
@@ -313,6 +326,11 @@ const verbs = [
   },
   {
     "fi": "mennä",
+    "negative": {
+      "present": "en mene",
+      "imperfect": "en mennyt",
+      "perfect": "en ole mennyt"
+    },
     "en": "to go",
     "verbtype": 3,
     "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
@@ -381,6 +399,11 @@ const verbs = [
   },
   {
     "fi": "tulla",
+    "negative": {
+      "present": "en tule",
+      "imperfect": "en tullut",
+      "perfect": "en ole tullut"
+    },
     "en": "to come",
     "verbtype": 3,
     "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
@@ -449,6 +472,11 @@ const verbs = [
   },
   {
     "fi": "tehdä",
+    "negative": {
+      "present": "en tee",
+      "imperfect": "en tehnyt",
+      "perfect": "en ole tehnyt"
+    },
     "en": "to do / to make",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -517,6 +545,11 @@ const verbs = [
   },
   {
     "fi": "saada",
+    "negative": {
+      "present": "en saa",
+      "imperfect": "en saanut",
+      "perfect": "en ole saanut"
+    },
     "en": "to get / to receive",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -585,6 +618,11 @@ const verbs = [
   },
   {
     "fi": "antaa",
+    "negative": {
+      "present": "en anna",
+      "imperfect": "en antanut",
+      "perfect": "en ole antanut"
+    },
     "en": "to give",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -653,6 +691,11 @@ const verbs = [
   },
   {
     "fi": "ottaa",
+    "negative": {
+      "present": "en ota",
+      "imperfect": "en ottanut",
+      "perfect": "en ole ottanut"
+    },
     "en": "to take",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -721,6 +764,11 @@ const verbs = [
   },
   {
     "fi": "haluta",
+    "negative": {
+      "present": "en halua",
+      "imperfect": "en halunnut",
+      "perfect": "en ole halunnut"
+    },
     "en": "to want",
     "verbtype": 4,
     "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
@@ -789,6 +837,11 @@ const verbs = [
   },
   {
     "fi": "voida",
+    "negative": {
+      "present": "en voi",
+      "imperfect": "en voinut",
+      "perfect": "en ole voinut"
+    },
     "en": "to be able to / can",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -857,6 +910,11 @@ const verbs = [
   },
   {
     "fi": "lähteä",
+    "negative": {
+      "present": "en lähde",
+      "imperfect": "en lähtenyt",
+      "perfect": "en ole lähtenyt"
+    },
     "en": "to leave / to go (away)",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -925,6 +983,11 @@ const verbs = [
   },
   {
     "fi": "tietää",
+    "negative": {
+      "present": "en tiedä",
+      "imperfect": "en tiennyt",
+      "perfect": "en ole tiennyt"
+    },
     "en": "to know (a fact)",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -993,6 +1056,11 @@ const verbs = [
   },
   {
     "fi": "sanoa",
+    "negative": {
+      "present": "en sano",
+      "imperfect": "en sanonut",
+      "perfect": "en ole sanonut"
+    },
     "en": "to say / to tell",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1061,6 +1129,11 @@ const verbs = [
   },
   {
     "fi": "nähdä",
+    "negative": {
+      "present": "en näe",
+      "imperfect": "en nähnyt",
+      "perfect": "en ole nähnyt"
+    },
     "en": "to see",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -1129,6 +1202,11 @@ const verbs = [
   },
   {
     "fi": "kysyä",
+    "negative": {
+      "present": "en kysy",
+      "imperfect": "en kysynyt",
+      "perfect": "en ole kysynyt"
+    },
     "en": "to ask",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1197,6 +1275,11 @@ const verbs = [
   },
   {
     "fi": "ajatella",
+    "negative": {
+      "present": "en ajattele",
+      "imperfect": "en ajatellut",
+      "perfect": "en ole ajatellut"
+    },
     "en": "to think",
     "verbtype": 3,
     "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
@@ -1265,6 +1348,11 @@ const verbs = [
   },
   {
     "fi": "tarvita",
+    "negative": {
+      "present": "en tarvitse",
+      "imperfect": "en tarvinnut",
+      "perfect": "en ole tarvinnut"
+    },
     "en": "to need",
     "verbtype": 5,
     "verbrule": "type 5 · infinitive ends in -ita/-itä; stem drops -ta/-tä and adds -tse-",
@@ -1333,6 +1421,11 @@ const verbs = [
   },
   {
     "fi": "löytää",
+    "negative": {
+      "present": "en löydä",
+      "imperfect": "en löytänyt",
+      "perfect": "en ole löytänyt"
+    },
     "en": "to find",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1401,6 +1494,11 @@ const verbs = [
   },
   {
     "fi": "odottaa",
+    "negative": {
+      "present": "en odota",
+      "imperfect": "en odottanut",
+      "perfect": "en ole odottanut"
+    },
     "en": "to wait / to expect",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1469,6 +1567,11 @@ const verbs = [
   },
   {
     "fi": "käydä",
+    "negative": {
+      "present": "en käy",
+      "imperfect": "en käynyt",
+      "perfect": "en ole käynyt"
+    },
     "en": "to visit / to go (briefly) / to pass",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -1537,6 +1640,11 @@ const verbs = [
   },
   {
     "fi": "pitää",
+    "negative": {
+      "present": "en pidä",
+      "imperfect": "en pitänyt",
+      "perfect": "en ole pitänyt"
+    },
     "en": "to like / must / to hold",
     "verbtype": 3,
     "verbrule": "type 3 · irregular; looks like type 1 (-ää) but conjugates with type 3 stem (pidän, pidät...)",
@@ -1605,6 +1713,11 @@ const verbs = [
   },
   {
     "fi": "nukkua",
+    "negative": {
+      "present": "en nuku",
+      "imperfect": "en nukkunut",
+      "perfect": "en ole nukkunut"
+    },
     "en": "to sleep",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1673,6 +1786,11 @@ const verbs = [
   },
   {
     "fi": "syödä",
+    "negative": {
+      "present": "en syö",
+      "imperfect": "en syönyt",
+      "perfect": "en ole syönyt"
+    },
     "en": "to eat",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -1741,6 +1859,11 @@ const verbs = [
   },
   {
     "fi": "juoda",
+    "negative": {
+      "present": "en juo",
+      "imperfect": "en juonut",
+      "perfect": "en ole juonut"
+    },
     "en": "to drink",
     "verbtype": 2,
     "verbrule": "type 2 · infinitive ends in -da/-dä",
@@ -1809,6 +1932,11 @@ const verbs = [
   },
   {
     "fi": "ymmärtää",
+    "negative": {
+      "present": "en ymmärrä",
+      "imperfect": "en ymmärtänyt",
+      "perfect": "en ole ymmärtänyt"
+    },
     "en": "to understand",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1877,6 +2005,11 @@ const verbs = [
   },
   {
     "fi": "muistaa",
+    "negative": {
+      "present": "en muista",
+      "imperfect": "en muistanut",
+      "perfect": "en ole muistanut"
+    },
     "en": "to remember",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -1945,6 +2078,11 @@ const verbs = [
   },
   {
     "fi": "unohtaa",
+    "negative": {
+      "present": "en unohda",
+      "imperfect": "en unohtanut",
+      "perfect": "en ole unohtanut"
+    },
     "en": "to forget",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -2013,6 +2151,11 @@ const verbs = [
   },
   {
     "fi": "osata",
+    "negative": {
+      "present": "en osaa",
+      "imperfect": "en osannut",
+      "perfect": "en ole osannut"
+    },
     "en": "to know how to / to be able to",
     "verbtype": 4,
     "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
@@ -2081,6 +2224,11 @@ const verbs = [
   },
   {
     "fi": "opiskella",
+    "negative": {
+      "present": "en opiskele",
+      "imperfect": "en opiskellut",
+      "perfect": "en ole opiskellut"
+    },
     "en": "to study",
     "verbtype": 3,
     "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä",
@@ -2149,6 +2297,11 @@ const verbs = [
   },
   {
     "fi": "oppia",
+    "negative": {
+      "present": "en opi",
+      "imperfect": "en oppinut",
+      "perfect": "en ole oppinut"
+    },
     "en": "to learn",
     "verbtype": 1,
     "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
@@ -2217,6 +2370,11 @@ const verbs = [
   },
   {
     "fi": "vastata",
+    "negative": {
+      "present": "en vastaa",
+      "imperfect": "en vastannut",
+      "perfect": "en ole vastannut"
+    },
     "en": "to answer",
     "verbtype": 4,
     "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
@@ -2351,7 +2509,28 @@ function buildSections() {
         </div>
       </div>
 
-      <!-- CARD 2: Expressions -->
+      <!-- CARD 2: Negative forms -->
+      <div class="anki-card">
+        <div class="card-front">
+          <span class="tag">FRONT</span> Negative forms of <strong>${v.fi}</strong> <em>(minä form)</em>
+        </div>
+        <div class="card-back">
+          <p class="negative-note">Each example uses <strong>en</strong>: the first-person singular negative form.</p>
+          <table class="conj-table">
+            <thead><tr>
+              <th>Tense</th>
+              <th>Negative</th>
+            </tr></thead>
+            <tbody>
+              <tr><td class="pronoun">Present</td><td class="negative-form">${v.negative.present}</td></tr>
+              <tr><td class="pronoun">Imperfect</td><td class="negative-form">${v.negative.imperfect}</td></tr>
+              <tr><td class="pronoun">Perfect</td><td class="negative-form">${v.negative.perfect}</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- CARD 3: Expressions -->
       <div class="anki-card">
         <div class="card-front">
           <span class="tag">FRONT</span> 5 expressions with <strong>${v.fi}</strong>
@@ -2366,7 +2545,7 @@ function buildSections() {
         </div>
       </div>
 
-      <!-- CARD 3: Story -->
+      <!-- CARD 4: Story -->
       <div class="anki-card">
         <div class="card-front">
           <span class="tag">FRONT</span> Short story using <strong>${v.fi}</strong>

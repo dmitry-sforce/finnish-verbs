@@ -42,4 +42,4 @@ The project needs only a current Node.js installation to build; it has no extern
 
 ## Anki import
 
-Import `finnish_verbs_anki.txt` using a semicolon separator and Anki’s Basic note type. The file creates five cards per verb: present tense, past tense, spoken Finnish, expressions, and story translation.
+Import `finnish_verbs_anki.txt` using a semicolon separator and Anki’s Basic note type. The file creates six cards per verb: present tense, past tense, spoken Finnish, negative forms (minä), expressions, and story translation.
