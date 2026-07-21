@@ -59,7 +59,7 @@ Use this document when adding or editing Finnish learning content. It supplement
 
 ## Current catalog
 
-`data/verbs.json` remains the canonical source of completed content. Keep the table below synchronized with its array order whenever a verb is added, removed, or reordered. It currently contains 30 verbs:
+`data/verbs.json` remains the canonical source of completed content. Keep the table below synchronized with its array order whenever a verb is added, removed, or reordered. It currently contains 56 verbs:
 
 | # | Finnish | English | VT |
 | - | ------- | ------- | -- |
@@ -93,9 +93,35 @@ Use this document when adding or editing Finnish learning content. It supplement
 | 28 | opiskella | to study | 3 |
 | 29 | oppia | to learn | 1 |
 | 30 | vastata | to answer | 4 |
+| 31 | istua | to sit | 1 |
+| 32 | seisoa | to stand | 1 |
+| 33 | pyytää | to request / to ask for | 1 |
+| 34 | kertoa | to tell | 1 |
+| 35 | keskustella | to discuss / to chat | 3 |
+| 36 | herätä | to wake up | 4 |
+| 37 | nousta | to get up / to rise | 3 |
+| 38 | maata | to lie | 4 |
+| 39 | pestä | to wash | 3 |
+| 40 | tiskata | to wash dishes | 4 |
+| 41 | siivota | to clean | 4 |
+| 42 | imuroida | to vacuum | 2 |
+| 43 | uida | to swim | 2 |
+| 44 | kävellä | to walk | 3 |
+| 45 | pyöräillä | to ride a bike | 3 |
+| 46 | ajaa | to drive | 1 |
+| 47 | juosta | to run | 3 |
+| 48 | pelata | to play sports / games | 4 |
+| 49 | leikkiä | to play | 1 |
+| 50 | soittaa | to call / to play music | 1 |
+| 51 | lainata | to borrow / to lend | 4 |
+| 52 | tavata | to meet | 4 |
+| 53 | tutustua | to get to know | 1 |
+| 54 | katsoa | to watch / to look | 1 |
+| 55 | jäädä | to stay / to remain | 2 |
+| 56 | saapua | to arrive | 1 |
 ## Planned next batch
 
-No next batch is scheduled. Select the next ten verbs from the available entries in the source backlog, verify their forms, and list them here before adding them.
+No next batch is scheduled. All entries in the current source backlog are complete. Extend the approved source pool before scheduling another batch.
 
 | # | Finnish | English | Expected VT |
 | - | ------- | ------- | ----------- |
@@ -108,8 +134,8 @@ This is the first 50 verbs from [Uusi kielemme’s “Your First 100 Finnish Ver
 | Source # | Finnish | English | VT | Project status |
 | -------- | ------- | ------- | -- | -------------- |
 | 1 | olla | to be | 3 | completed |
-| 2 | istua | to sit | 1 | available |
-| 3 | seisoa | to stand | 1 | available |
+| 2 | istua | to sit | 1 | completed |
+| 3 | seisoa | to stand | 1 | completed |
 | 4 | syödä | to eat | 2 | completed |
 | 5 | juoda | to drink | 2 | completed |
 | 6 | odottaa | to wait | 1 | completed |
@@ -123,39 +149,39 @@ This is the first 50 verbs from [Uusi kielemme’s “Your First 100 Finnish Ver
 | 14 | oppia | to learn | 1 | completed |
 | 15 | kysyä | to ask | 1 | completed |
 | 16 | vastata | to answer | 4 | completed |
-| 17 | pyytää | to request | 1 | available |
+| 17 | pyytää | to request | 1 | completed |
 | 18 | sanoa | to say | 1 | completed |
-| 19 | kertoa | to tell | 1 | available |
-| 20 | keskustella | to chat | 3 | available |
+| 19 | kertoa | to tell | 1 | completed |
+| 20 | keskustella | to chat | 3 | completed |
 | 21 | nukkua | to sleep | 1 | completed |
-| 22 | herätä | to wake up | 4 | available |
-| 23 | nousta | to get up | 3 | available |
-| 24 | maata | to lie down | 4 | available |
-| 25 | pestä | to wash | 3 | available |
-| 26 | tiskata | to wash dishes | 4 | available |
-| 27 | siivota | to clean | 4 | available |
-| 28 | imuroida | to vacuum | 2 | available |
-| 29 | uida | to swim | 2 | available |
-| 30 | kävellä | to walk | 3 | available |
-| 31 | pyöräillä | to ride a bike | 3 | available |
-| 32 | ajaa | to drive | 1 | available |
-| 33 | juosta | to run | 3 | available |
-| 34 | pelata | to play sports | 4 | available |
-| 35 | leikkiä | to play (child) | 1 | available |
-| 36 | soittaa | to play / to call | 1 | available |
+| 22 | herätä | to wake up | 4 | completed |
+| 23 | nousta | to get up | 3 | completed |
+| 24 | maata | to lie down | 4 | completed |
+| 25 | pestä | to wash | 3 | completed |
+| 26 | tiskata | to wash dishes | 4 | completed |
+| 27 | siivota | to clean | 4 | completed |
+| 28 | imuroida | to vacuum | 2 | completed |
+| 29 | uida | to swim | 2 | completed |
+| 30 | kävellä | to walk | 3 | completed |
+| 31 | pyöräillä | to ride a bike | 3 | completed |
+| 32 | ajaa | to drive | 1 | completed |
+| 33 | juosta | to run | 3 | completed |
+| 34 | pelata | to play sports | 4 | completed |
+| 35 | leikkiä | to play (child) | 1 | completed |
+| 36 | soittaa | to play / to call | 1 | completed |
 | 37 | ottaa | to take | 1 | completed |
 | 38 | antaa | to give | 1 | completed |
-| 39 | lainata | to borrow / lend | 4 | available |
-| 40 | tavata | to meet | 4 | available |
-| 41 | tutustua | to get to know | 1 | available |
+| 39 | lainata | to borrow / lend | 4 | completed |
+| 40 | tavata | to meet | 4 | completed |
+| 41 | tutustua | to get to know | 1 | completed |
 | 42 | tehdä | to do | 2 | completed |
 | 43 | nähdä | to see | 2 | completed |
-| 44 | katsoa | to watch | 1 | available |
+| 44 | katsoa | to watch | 1 | completed |
 | 45 | tulla | to come | 3 | completed |
 | 46 | mennä | to go | 3 | completed |
 | 47 | lähteä | to leave | 1 | completed |
-| 48 | jäädä | to stay | 2 | available |
-| 49 | saapua | to arrive | 1 | available |
+| 48 | jäädä | to stay | 2 | completed |
+| 49 | saapua | to arrive | 1 | completed |
 | 50 | käydä | to visit | 2 | completed |
 
 ## Content-change checklist

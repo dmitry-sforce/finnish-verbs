@@ -2188,5 +2188,1903 @@
     ],
     "story_fi": "Opettaja kysyi minulta kysymyksen. Vastasin hitaasti suomeksi. Opettaja sanoi, että vastasin hyvin.",
     "story_en": "The teacher asked me a question. I answered slowly in Finnish. The teacher said that I answered well."
+  },
+  {
+    "fi": "istua",
+    "negative": {
+      "present": "en istu",
+      "imperfect": "en istunut",
+      "perfect": "en ole istunut"
+    },
+    "en": "to sit",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "istun",
+        "past": "istuin",
+        "spok": "mä istun"
+      },
+      {
+        "pro": "sinä",
+        "pres": "istut",
+        "past": "istuit",
+        "spok": "sä istut"
+      },
+      {
+        "pro": "hän",
+        "pres": "istuu",
+        "past": "istui",
+        "spok": "se istuu"
+      },
+      {
+        "pro": "me",
+        "pres": "istumme",
+        "past": "istuimme",
+        "spok": "me istutaan"
+      },
+      {
+        "pro": "te",
+        "pres": "istutte",
+        "past": "istuitte",
+        "spok": "te istutte"
+      },
+      {
+        "pro": "he",
+        "pres": "istuvat",
+        "past": "istuivat",
+        "spok": "ne istuu"
+      }
+    ],
+    "expressions": [
+      [
+        "Istun keittiössä.",
+        "I sit in the kitchen."
+      ],
+      [
+        "Istutko tässä?",
+        "Will you sit here?"
+      ],
+      [
+        "Hän istui bussissa.",
+        "He sat on the bus."
+      ],
+      [
+        "Istumme ikkunan vieressä.",
+        "We sit by the window."
+      ],
+      [
+        "He istuvat puistossa.",
+        "They sit in the park."
+      ]
+    ],
+    "story_fi": "Istun aamulla keittiössä ja juon kahvia. Eilen istuin pitkään parvekkeella. Tänään istun ystävän vieressä.",
+    "story_en": "In the morning I sit in the kitchen and drink coffee. Yesterday I sat on the balcony for a long time. Today I sit beside a friend."
+  },
+  {
+    "fi": "seisoa",
+    "negative": {
+      "present": "en seiso",
+      "imperfect": "en seisonut",
+      "perfect": "en ole seisonut"
+    },
+    "en": "to stand",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "seison",
+        "past": "seisoin",
+        "spok": "mä seison"
+      },
+      {
+        "pro": "sinä",
+        "pres": "seisot",
+        "past": "seisoit",
+        "spok": "sä seisot"
+      },
+      {
+        "pro": "hän",
+        "pres": "seisoo",
+        "past": "seisoi",
+        "spok": "se seisoo"
+      },
+      {
+        "pro": "me",
+        "pres": "seisomme",
+        "past": "seisoimme",
+        "spok": "me seistään"
+      },
+      {
+        "pro": "te",
+        "pres": "seisotte",
+        "past": "seisoitte",
+        "spok": "te seisotte"
+      },
+      {
+        "pro": "he",
+        "pres": "seisovat",
+        "past": "seisoivat",
+        "spok": "ne seisoo"
+      }
+    ],
+    "expressions": [
+      [
+        "Seison oven edessä.",
+        "I stand in front of the door."
+      ],
+      [
+        "Seisotko jonossa?",
+        "Are you standing in line?"
+      ],
+      [
+        "Hän seisoi pysäkillä.",
+        "She stood at the bus stop."
+      ],
+      [
+        "Seisomme yhdessä.",
+        "We stand together."
+      ],
+      [
+        "He seisovat ulkona.",
+        "They stand outside."
+      ]
+    ],
+    "story_fi": "Seison bussipysäkillä joka aamu. Eilen seisoin siellä kymmenen minuuttia. Nyt seison lämpimässä auringossa.",
+    "story_en": "I stand at the bus stop every morning. Yesterday I stood there for ten minutes. Now I am standing in the warm sun."
+  },
+  {
+    "fi": "pyytää",
+    "negative": {
+      "present": "en pyydä",
+      "imperfect": "en pyytänyt",
+      "perfect": "en ole pyytänyt"
+    },
+    "en": "to request / to ask for",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "pyydän",
+        "past": "pyysin",
+        "spok": "mä pyydän"
+      },
+      {
+        "pro": "sinä",
+        "pres": "pyydät",
+        "past": "pyysit",
+        "spok": "sä pyydät"
+      },
+      {
+        "pro": "hän",
+        "pres": "pyytää",
+        "past": "pyysi",
+        "spok": "se pyytää"
+      },
+      {
+        "pro": "me",
+        "pres": "pyydämme",
+        "past": "pyysimme",
+        "spok": "me pyydetään"
+      },
+      {
+        "pro": "te",
+        "pres": "pyydätte",
+        "past": "pyysitte",
+        "spok": "te pyydätte"
+      },
+      {
+        "pro": "he",
+        "pres": "pyytävät",
+        "past": "pyysivät",
+        "spok": "ne pyytää"
+      }
+    ],
+    "expressions": [
+      [
+        "Pyydän apua.",
+        "I ask for help."
+      ],
+      [
+        "Pyydätkö laskun?",
+        "Will you ask for the bill?"
+      ],
+      [
+        "Hän pyysi kahvia.",
+        "She asked for coffee."
+      ],
+      [
+        "Pyydämme anteeksi.",
+        "We apologize."
+      ],
+      [
+        "He pyytävät lisätietoja.",
+        "They request more information."
+      ]
+    ],
+    "story_fi": "Pyydän kaupassa apua. Eilen pyysin myyjältä neuvoa. Hän sanoi, että voin aina pyytää apua.",
+    "story_en": "I ask for help in the shop. Yesterday I asked the salesperson for advice. She said that I can always ask for help."
+  },
+  {
+    "fi": "kertoa",
+    "negative": {
+      "present": "en kerro",
+      "imperfect": "en kertonut",
+      "perfect": "en ole kertonut"
+    },
+    "en": "to tell",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "kerron",
+        "past": "kerroin",
+        "spok": "mä kerron"
+      },
+      {
+        "pro": "sinä",
+        "pres": "kerrot",
+        "past": "kerroit",
+        "spok": "sä kerrot"
+      },
+      {
+        "pro": "hän",
+        "pres": "kertoo",
+        "past": "kertoi",
+        "spok": "se kertoo"
+      },
+      {
+        "pro": "me",
+        "pres": "kerromme",
+        "past": "kerroimme",
+        "spok": "me kerrotaan"
+      },
+      {
+        "pro": "te",
+        "pres": "kerrotte",
+        "past": "kerroitte",
+        "spok": "te kerrotte"
+      },
+      {
+        "pro": "he",
+        "pres": "kertovat",
+        "past": "kertoivat",
+        "spok": "ne kertoo"
+      }
+    ],
+    "expressions": [
+      [
+        "Kerron sinulle uutisen.",
+        "I will tell you the news."
+      ],
+      [
+        "Kerrotko nimesi?",
+        "Will you tell me your name?"
+      ],
+      [
+        "Hän kertoi tarinan.",
+        "He told a story."
+      ],
+      [
+        "Kerromme asiasta huomenna.",
+        "We will tell you about it tomorrow."
+      ],
+      [
+        "He kertovat totuuden.",
+        "They tell the truth."
+      ]
+    ],
+    "story_fi": "Kerron ystävälle päivästäni. Eilen kerroin hänelle hauskan tarinan. Huomenna kerron lisää.",
+    "story_en": "I tell my friend about my day. Yesterday I told her a funny story. Tomorrow I will tell her more."
+  },
+  {
+    "fi": "keskustella",
+    "negative": {
+      "present": "en keskustele",
+      "imperfect": "en keskustellut",
+      "perfect": "en ole keskustellut"
+    },
+    "en": "to discuss / to chat",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä; add -e-",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "keskustelen",
+        "past": "keskustelin",
+        "spok": "mä keskustelen"
+      },
+      {
+        "pro": "sinä",
+        "pres": "keskustelet",
+        "past": "keskustelit",
+        "spok": "sä keskustelet"
+      },
+      {
+        "pro": "hän",
+        "pres": "keskustelee",
+        "past": "keskusteli",
+        "spok": "se keskustelee"
+      },
+      {
+        "pro": "me",
+        "pres": "keskustelemme",
+        "past": "keskustelimme",
+        "spok": "me keskustellaan"
+      },
+      {
+        "pro": "te",
+        "pres": "keskustelette",
+        "past": "keskustelitte",
+        "spok": "te keskustelette"
+      },
+      {
+        "pro": "he",
+        "pres": "keskustelevat",
+        "past": "keskustelivat",
+        "spok": "ne keskustelee"
+      }
+    ],
+    "expressions": [
+      [
+        "Keskustelen opettajan kanssa.",
+        "I talk with the teacher."
+      ],
+      [
+        "Keskusteletko asiasta?",
+        "Will you discuss the matter?"
+      ],
+      [
+        "Hän keskusteli pitkään.",
+        "She talked for a long time."
+      ],
+      [
+        "Keskustelemme suomeksi.",
+        "We talk in Finnish."
+      ],
+      [
+        "He keskustelevat työstä.",
+        "They discuss work."
+      ]
+    ],
+    "story_fi": "Keskustelen usein naapurin kanssa. Eilen keskustelimme säästä. On mukava keskustella suomeksi.",
+    "story_en": "I often chat with my neighbor. Yesterday we talked about the weather. It is nice to talk in Finnish."
+  },
+  {
+    "fi": "herätä",
+    "negative": {
+      "present": "en herää",
+      "imperfect": "en herännyt",
+      "perfect": "en ole herännyt"
+    },
+    "en": "to wake up",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "herään",
+        "past": "heräsin",
+        "spok": "mä herään"
+      },
+      {
+        "pro": "sinä",
+        "pres": "heräät",
+        "past": "heräsit",
+        "spok": "sä heräät"
+      },
+      {
+        "pro": "hän",
+        "pres": "herää",
+        "past": "heräsi",
+        "spok": "se herää"
+      },
+      {
+        "pro": "me",
+        "pres": "heräämme",
+        "past": "heräsimme",
+        "spok": "me herätään"
+      },
+      {
+        "pro": "te",
+        "pres": "heräätte",
+        "past": "heräsitte",
+        "spok": "te heräätte"
+      },
+      {
+        "pro": "he",
+        "pres": "heräävät",
+        "past": "heräsivät",
+        "spok": "ne herää"
+      }
+    ],
+    "expressions": [
+      [
+        "Herään seitsemältä.",
+        "I wake up at seven."
+      ],
+      [
+        "Heräätkö aikaisin?",
+        "Do you wake up early?"
+      ],
+      [
+        "Hän heräsi yöllä.",
+        "She woke up at night."
+      ],
+      [
+        "Heräämme kellon soittoon.",
+        "We wake up to the alarm."
+      ],
+      [
+        "He heräävät myöhään.",
+        "They wake up late."
+      ]
+    ],
+    "story_fi": "Herään arkisin aikaisin. Eilen heräsin jo kuudelta. Viikonloppuna haluan herätä myöhemmin.",
+    "story_en": "I wake up early on weekdays. Yesterday I woke up at six already. On weekends I want to wake up later."
+  },
+  {
+    "fi": "nousta",
+    "negative": {
+      "present": "en nouse",
+      "imperfect": "en noussut",
+      "perfect": "en ole noussut"
+    },
+    "en": "to get up / to rise",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä; add -e-",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "nousen",
+        "past": "nousin",
+        "spok": "mä nousen"
+      },
+      {
+        "pro": "sinä",
+        "pres": "nouset",
+        "past": "nousit",
+        "spok": "sä nouset"
+      },
+      {
+        "pro": "hän",
+        "pres": "nousee",
+        "past": "nousi",
+        "spok": "se nousee"
+      },
+      {
+        "pro": "me",
+        "pres": "nousemme",
+        "past": "nousimme",
+        "spok": "me noustaan"
+      },
+      {
+        "pro": "te",
+        "pres": "nousette",
+        "past": "nousitte",
+        "spok": "te nousette"
+      },
+      {
+        "pro": "he",
+        "pres": "nousevat",
+        "past": "nousivat",
+        "spok": "ne nousee"
+      }
+    ],
+    "expressions": [
+      [
+        "Nousen sängystä.",
+        "I get out of bed."
+      ],
+      [
+        "Nousetko aikaisin?",
+        "Do you get up early?"
+      ],
+      [
+        "Aurinko nousi.",
+        "The sun rose."
+      ],
+      [
+        "Nousemme bussiin.",
+        "We get on the bus."
+      ],
+      [
+        "Hinnat nousevat.",
+        "Prices are rising."
+      ]
+    ],
+    "story_fi": "Nousen aamulla heti sängystä. Eilen nousin tavallista myöhemmin. Huomenna nousen taas seitsemältä.",
+    "story_en": "I get out of bed immediately in the morning. Yesterday I got up later than usual. Tomorrow I will get up at seven again."
+  },
+  {
+    "fi": "maata",
+    "negative": {
+      "present": "en makaa",
+      "imperfect": "en maannut",
+      "perfect": "en ole maannut"
+    },
+    "en": "to lie",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "makaan",
+        "past": "makasin",
+        "spok": "mä makaan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "makaat",
+        "past": "makasit",
+        "spok": "sä makaat"
+      },
+      {
+        "pro": "hän",
+        "pres": "makaa",
+        "past": "makasi",
+        "spok": "se makaa"
+      },
+      {
+        "pro": "me",
+        "pres": "makaamme",
+        "past": "makasimme",
+        "spok": "me maataan"
+      },
+      {
+        "pro": "te",
+        "pres": "makaatte",
+        "past": "makasitte",
+        "spok": "te makaatte"
+      },
+      {
+        "pro": "he",
+        "pres": "makaavat",
+        "past": "makasivat",
+        "spok": "ne makaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Makaan sohvalla.",
+        "I lie on the sofa."
+      ],
+      [
+        "Makaatko sängyssä?",
+        "Are you lying in bed?"
+      ],
+      [
+        "Koira makasi lattialla.",
+        "The dog lay on the floor."
+      ],
+      [
+        "Makaamme rannalla.",
+        "We lie on the beach."
+      ],
+      [
+        "Kirjat makaavat pöydällä.",
+        "The books are lying on the table."
+      ]
+    ],
+    "story_fi": "Makaan hetken sohvalla töiden jälkeen. Eilen makasin siinä ja luin kirjaa. Kissa makaa usein vieressäni.",
+    "story_en": "I lie on the sofa for a while after work. Yesterday I lay there and read a book. The cat often lies beside me."
+  },
+  {
+    "fi": "pestä",
+    "negative": {
+      "present": "en pese",
+      "imperfect": "en pessyt",
+      "perfect": "en ole pessyt"
+    },
+    "en": "to wash",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä; add -e-",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "pesen",
+        "past": "pesin",
+        "spok": "mä pesen"
+      },
+      {
+        "pro": "sinä",
+        "pres": "peset",
+        "past": "pesit",
+        "spok": "sä peset"
+      },
+      {
+        "pro": "hän",
+        "pres": "pesee",
+        "past": "pesi",
+        "spok": "se pesee"
+      },
+      {
+        "pro": "me",
+        "pres": "pesemme",
+        "past": "pesimme",
+        "spok": "me pestään"
+      },
+      {
+        "pro": "te",
+        "pres": "pesette",
+        "past": "pesitte",
+        "spok": "te pesette"
+      },
+      {
+        "pro": "he",
+        "pres": "pesevät",
+        "past": "pesivät",
+        "spok": "ne pesee"
+      }
+    ],
+    "expressions": [
+      [
+        "Pesen kädet.",
+        "I wash my hands."
+      ],
+      [
+        "Pesetkö auton?",
+        "Will you wash the car?"
+      ],
+      [
+        "Hän pesi hiukset.",
+        "She washed her hair."
+      ],
+      [
+        "Pesemme astiat.",
+        "We wash the dishes."
+      ],
+      [
+        "He pesevät pyykkiä.",
+        "They do the laundry."
+      ]
+    ],
+    "story_fi": "Pesen kädet ennen ruokaa. Eilen pesin myös auton. Huomenna pesen ikkunat.",
+    "story_en": "I wash my hands before eating. Yesterday I also washed the car. Tomorrow I will wash the windows."
+  },
+  {
+    "fi": "tiskata",
+    "negative": {
+      "present": "en tiskaa",
+      "imperfect": "en tiskannut",
+      "perfect": "en ole tiskannut"
+    },
+    "en": "to wash dishes",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "tiskaan",
+        "past": "tiskasin",
+        "spok": "mä tiskaan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "tiskaat",
+        "past": "tiskasit",
+        "spok": "sä tiskaat"
+      },
+      {
+        "pro": "hän",
+        "pres": "tiskaa",
+        "past": "tiskasi",
+        "spok": "se tiskaa"
+      },
+      {
+        "pro": "me",
+        "pres": "tiskaamme",
+        "past": "tiskasimme",
+        "spok": "me tiskataan"
+      },
+      {
+        "pro": "te",
+        "pres": "tiskaatte",
+        "past": "tiskasitte",
+        "spok": "te tiskaatte"
+      },
+      {
+        "pro": "he",
+        "pres": "tiskaavat",
+        "past": "tiskasivat",
+        "spok": "ne tiskaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Tiskaan illalla.",
+        "I wash the dishes in the evening."
+      ],
+      [
+        "Tiskaatko tänään?",
+        "Will you wash the dishes today?"
+      ],
+      [
+        "Hän tiskasi kupit.",
+        "He washed the cups."
+      ],
+      [
+        "Tiskaamme yhdessä.",
+        "We wash the dishes together."
+      ],
+      [
+        "He tiskaavat vuorotellen.",
+        "They take turns washing dishes."
+      ]
+    ],
+    "story_fi": "Tiskaan yleensä ruoan jälkeen. Eilen tiskasin paljon astioita. Tänään ystäväni tiskaa kanssani.",
+    "story_en": "I usually wash the dishes after the meal. Yesterday I washed many dishes. Today my friend is washing them with me."
+  },
+  {
+    "fi": "siivota",
+    "negative": {
+      "present": "en siivoa",
+      "imperfect": "en siivonnut",
+      "perfect": "en ole siivonnut"
+    },
+    "en": "to clean",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "siivoan",
+        "past": "siivosin",
+        "spok": "mä siivoan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "siivoat",
+        "past": "siivosit",
+        "spok": "sä siivoat"
+      },
+      {
+        "pro": "hän",
+        "pres": "siivoaa",
+        "past": "siivosi",
+        "spok": "se siivoaa"
+      },
+      {
+        "pro": "me",
+        "pres": "siivoamme",
+        "past": "siivosimme",
+        "spok": "me siivotaan"
+      },
+      {
+        "pro": "te",
+        "pres": "siivoatte",
+        "past": "siivositte",
+        "spok": "te siivoatte"
+      },
+      {
+        "pro": "he",
+        "pres": "siivoavat",
+        "past": "siivosivat",
+        "spok": "ne siivoaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Siivoan huoneen.",
+        "I clean the room."
+      ],
+      [
+        "Siivoatko lauantaina?",
+        "Do you clean on Saturday?"
+      ],
+      [
+        "Hän siivosi keittiön.",
+        "She cleaned the kitchen."
+      ],
+      [
+        "Siivoamme yhdessä.",
+        "We clean together."
+      ],
+      [
+        "He siivoavat toimistoa.",
+        "They are cleaning the office."
+      ]
+    ],
+    "story_fi": "Siivoan kodin joka viikko. Eilen siivosin keittiön. Huomenna siivoan makuuhuoneen.",
+    "story_en": "I clean the home every week. Yesterday I cleaned the kitchen. Tomorrow I will clean the bedroom."
+  },
+  {
+    "fi": "imuroida",
+    "negative": {
+      "present": "en imuroi",
+      "imperfect": "en imuroinut",
+      "perfect": "en ole imuroinut"
+    },
+    "en": "to vacuum",
+    "verbtype": 2,
+    "verbrule": "type 2 · infinitive ends in -da/-dä; remove -da/-dä",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "imuroin",
+        "past": "imuroin",
+        "spok": "mä imuroin"
+      },
+      {
+        "pro": "sinä",
+        "pres": "imuroit",
+        "past": "imuroit",
+        "spok": "sä imuroit"
+      },
+      {
+        "pro": "hän",
+        "pres": "imuroi",
+        "past": "imuroi",
+        "spok": "se imuroi"
+      },
+      {
+        "pro": "me",
+        "pres": "imuroimme",
+        "past": "imuroimme",
+        "spok": "me imuroidaan"
+      },
+      {
+        "pro": "te",
+        "pres": "imuroitte",
+        "past": "imuroitte",
+        "spok": "te imuroitte"
+      },
+      {
+        "pro": "he",
+        "pres": "imuroivat",
+        "past": "imuroivat",
+        "spok": "ne imuroi"
+      }
+    ],
+    "expressions": [
+      [
+        "Imuroin olohuoneen.",
+        "I vacuum the living room."
+      ],
+      [
+        "Imuroitko tänään?",
+        "Will you vacuum today?"
+      ],
+      [
+        "Hän imuroi aamulla.",
+        "She vacuumed in the morning."
+      ],
+      [
+        "Imuroimme joka viikko.",
+        "We vacuum every week."
+      ],
+      [
+        "He imuroivat matot.",
+        "They vacuum the rugs."
+      ]
+    ],
+    "story_fi": "Imuroin kodin perjantaisin. Eilen imuroin kaikki huoneet. Seuraavaksi imuroin auton.",
+    "story_en": "I vacuum the home on Fridays. Yesterday I vacuumed every room. Next I will vacuum the car."
+  },
+  {
+    "fi": "uida",
+    "negative": {
+      "present": "en ui",
+      "imperfect": "en uinut",
+      "perfect": "en ole uinut"
+    },
+    "en": "to swim",
+    "verbtype": 2,
+    "verbrule": "type 2 · infinitive ends in -da/-dä; remove -da/-dä",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "uin",
+        "past": "uin",
+        "spok": "mä uin"
+      },
+      {
+        "pro": "sinä",
+        "pres": "uit",
+        "past": "uit",
+        "spok": "sä uit"
+      },
+      {
+        "pro": "hän",
+        "pres": "ui",
+        "past": "ui",
+        "spok": "se ui"
+      },
+      {
+        "pro": "me",
+        "pres": "uimme",
+        "past": "uimme",
+        "spok": "me uidaan"
+      },
+      {
+        "pro": "te",
+        "pres": "uitte",
+        "past": "uitte",
+        "spok": "te uitte"
+      },
+      {
+        "pro": "he",
+        "pres": "uivat",
+        "past": "uivat",
+        "spok": "ne ui"
+      }
+    ],
+    "expressions": [
+      [
+        "Uin järvessä.",
+        "I swim in the lake."
+      ],
+      [
+        "Uitko usein?",
+        "Do you swim often?"
+      ],
+      [
+        "Hän ui eilen.",
+        "She swam yesterday."
+      ],
+      [
+        "Uimme yhdessä.",
+        "We swim together."
+      ],
+      [
+        "He uivat nopeasti.",
+        "They swim fast."
+      ]
+    ],
+    "story_fi": "Uin kesällä järvessä. Eilen uin puoli tuntia. Huomenna uin ystävän kanssa.",
+    "story_en": "I swim in the lake in summer. Yesterday I swam for half an hour. Tomorrow I will swim with a friend."
+  },
+  {
+    "fi": "kävellä",
+    "negative": {
+      "present": "en kävele",
+      "imperfect": "en kävellyt",
+      "perfect": "en ole kävellyt"
+    },
+    "en": "to walk",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä; add -e-",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "kävelen",
+        "past": "kävelin",
+        "spok": "mä kävelen"
+      },
+      {
+        "pro": "sinä",
+        "pres": "kävelet",
+        "past": "kävelit",
+        "spok": "sä kävelet"
+      },
+      {
+        "pro": "hän",
+        "pres": "kävelee",
+        "past": "käveli",
+        "spok": "se kävelee"
+      },
+      {
+        "pro": "me",
+        "pres": "kävelemme",
+        "past": "kävelimme",
+        "spok": "me kävellään"
+      },
+      {
+        "pro": "te",
+        "pres": "kävelette",
+        "past": "kävelitte",
+        "spok": "te kävelette"
+      },
+      {
+        "pro": "he",
+        "pres": "kävelevät",
+        "past": "kävelivät",
+        "spok": "ne kävelee"
+      }
+    ],
+    "expressions": [
+      [
+        "Kävelen töihin.",
+        "I walk to work."
+      ],
+      [
+        "Käveletkö kotiin?",
+        "Will you walk home?"
+      ],
+      [
+        "Hän käveli puistossa.",
+        "She walked in the park."
+      ],
+      [
+        "Kävelemme hitaasti.",
+        "We walk slowly."
+      ],
+      [
+        "He kävelevät rannalla.",
+        "They walk on the beach."
+      ]
+    ],
+    "story_fi": "Kävelen joka päivä töihin. Eilen kävelin pitkän matkan. Illalla kävelen vielä koiran kanssa.",
+    "story_en": "I walk to work every day. Yesterday I walked a long way. In the evening I will also walk with the dog."
+  },
+  {
+    "fi": "pyöräillä",
+    "negative": {
+      "present": "en pyöräile",
+      "imperfect": "en pyöräillyt",
+      "perfect": "en ole pyöräillyt"
+    },
+    "en": "to ride a bike",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä; add -e-",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "pyöräilen",
+        "past": "pyöräilin",
+        "spok": "mä pyöräilen"
+      },
+      {
+        "pro": "sinä",
+        "pres": "pyöräilet",
+        "past": "pyöräilit",
+        "spok": "sä pyöräilet"
+      },
+      {
+        "pro": "hän",
+        "pres": "pyöräilee",
+        "past": "pyöräili",
+        "spok": "se pyöräilee"
+      },
+      {
+        "pro": "me",
+        "pres": "pyöräilemme",
+        "past": "pyöräilimme",
+        "spok": "me pyöräillään"
+      },
+      {
+        "pro": "te",
+        "pres": "pyöräilette",
+        "past": "pyöräilitte",
+        "spok": "te pyöräilette"
+      },
+      {
+        "pro": "he",
+        "pres": "pyöräilevät",
+        "past": "pyöräilivät",
+        "spok": "ne pyöräilee"
+      }
+    ],
+    "expressions": [
+      [
+        "Pyöräilen kouluun.",
+        "I cycle to school."
+      ],
+      [
+        "Pyöräiletkö usein?",
+        "Do you cycle often?"
+      ],
+      [
+        "Hän pyöräili töihin.",
+        "He cycled to work."
+      ],
+      [
+        "Pyöräilemme yhdessä.",
+        "We cycle together."
+      ],
+      [
+        "He pyöräilevät kesällä.",
+        "They cycle in summer."
+      ]
+    ],
+    "story_fi": "Pyöräilen töihin hyvällä säällä. Eilen pyöräilin joen rannalla. Viikonloppuna pyöräilen ystävän kanssa.",
+    "story_en": "I cycle to work in good weather. Yesterday I cycled along the river. At the weekend I will cycle with a friend."
+  },
+  {
+    "fi": "ajaa",
+    "negative": {
+      "present": "en aja",
+      "imperfect": "en ajanut",
+      "perfect": "en ole ajanut"
+    },
+    "en": "to drive",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "ajan",
+        "past": "ajoin",
+        "spok": "mä ajan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "ajat",
+        "past": "ajoit",
+        "spok": "sä ajat"
+      },
+      {
+        "pro": "hän",
+        "pres": "ajaa",
+        "past": "ajoi",
+        "spok": "se ajaa"
+      },
+      {
+        "pro": "me",
+        "pres": "ajamme",
+        "past": "ajoimme",
+        "spok": "me ajetaan"
+      },
+      {
+        "pro": "te",
+        "pres": "ajatte",
+        "past": "ajoitte",
+        "spok": "te ajatte"
+      },
+      {
+        "pro": "he",
+        "pres": "ajavat",
+        "past": "ajoivat",
+        "spok": "ne ajaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Ajan autoa.",
+        "I drive a car."
+      ],
+      [
+        "Ajatko töihin?",
+        "Do you drive to work?"
+      ],
+      [
+        "Hän ajoi Helsinkiin.",
+        "She drove to Helsinki."
+      ],
+      [
+        "Ajamme hitaasti.",
+        "We drive slowly."
+      ],
+      [
+        "He ajavat bussilla.",
+        "They travel by bus."
+      ]
+    ],
+    "story_fi": "Ajan aamulla töihin. Eilen ajoin maalle. Huomenna ajan takaisin kaupunkiin.",
+    "story_en": "I drive to work in the morning. Yesterday I drove to the countryside. Tomorrow I will drive back to the city."
+  },
+  {
+    "fi": "juosta",
+    "negative": {
+      "present": "en juokse",
+      "imperfect": "en juossut",
+      "perfect": "en ole juossut"
+    },
+    "en": "to run",
+    "verbtype": 3,
+    "verbrule": "type 3 · infinitive ends in -lla/-llä, -nna/-nnä, -rra/-rrä, -sta/-stä; add -e-",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "juoksen",
+        "past": "juoksin",
+        "spok": "mä juoksen"
+      },
+      {
+        "pro": "sinä",
+        "pres": "juokset",
+        "past": "juoksit",
+        "spok": "sä juokset"
+      },
+      {
+        "pro": "hän",
+        "pres": "juoksee",
+        "past": "juoksi",
+        "spok": "se juoksee"
+      },
+      {
+        "pro": "me",
+        "pres": "juoksemme",
+        "past": "juoksimme",
+        "spok": "me juostaan"
+      },
+      {
+        "pro": "te",
+        "pres": "juoksette",
+        "past": "juoksitte",
+        "spok": "te juoksette"
+      },
+      {
+        "pro": "he",
+        "pres": "juoksevat",
+        "past": "juoksivat",
+        "spok": "ne juoksee"
+      }
+    ],
+    "expressions": [
+      [
+        "Juoksen puistossa.",
+        "I run in the park."
+      ],
+      [
+        "Juoksetko nopeasti?",
+        "Do you run fast?"
+      ],
+      [
+        "Hän juoksi kotiin.",
+        "He ran home."
+      ],
+      [
+        "Juoksemme yhdessä.",
+        "We run together."
+      ],
+      [
+        "Lapset juoksevat pihalla.",
+        "The children run in the yard."
+      ]
+    ],
+    "story_fi": "Juoksen puistossa kolme kertaa viikossa. Eilen juoksin viisi kilometriä. Huomenna juoksen ystävän kanssa.",
+    "story_en": "I run in the park three times a week. Yesterday I ran five kilometers. Tomorrow I will run with a friend."
+  },
+  {
+    "fi": "pelata",
+    "negative": {
+      "present": "en pelaa",
+      "imperfect": "en pelannut",
+      "perfect": "en ole pelannut"
+    },
+    "en": "to play sports / games",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "pelaan",
+        "past": "pelasin",
+        "spok": "mä pelaan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "pelaat",
+        "past": "pelasit",
+        "spok": "sä pelaat"
+      },
+      {
+        "pro": "hän",
+        "pres": "pelaa",
+        "past": "pelasi",
+        "spok": "se pelaa"
+      },
+      {
+        "pro": "me",
+        "pres": "pelaamme",
+        "past": "pelasimme",
+        "spok": "me pelataan"
+      },
+      {
+        "pro": "te",
+        "pres": "pelaatte",
+        "past": "pelasitte",
+        "spok": "te pelaatte"
+      },
+      {
+        "pro": "he",
+        "pres": "pelaavat",
+        "past": "pelasivat",
+        "spok": "ne pelaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Pelaan jalkapalloa.",
+        "I play football."
+      ],
+      [
+        "Pelaatko shakkia?",
+        "Do you play chess?"
+      ],
+      [
+        "Hän pelasi hyvin.",
+        "She played well."
+      ],
+      [
+        "Pelaamme korttia.",
+        "We play cards."
+      ],
+      [
+        "He pelaavat jääkiekkoa.",
+        "They play ice hockey."
+      ]
+    ],
+    "story_fi": "Pelaan jalkapalloa tiistaisin. Eilen pelasin ystävien kanssa. Ensi viikolla pelaamme taas.",
+    "story_en": "I play football on Tuesdays. Yesterday I played with friends. Next week we will play again."
+  },
+  {
+    "fi": "leikkiä",
+    "negative": {
+      "present": "en leiki",
+      "imperfect": "en leikkinyt",
+      "perfect": "en ole leikkinyt"
+    },
+    "en": "to play",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "leikin",
+        "past": "leikin",
+        "spok": "mä leikin"
+      },
+      {
+        "pro": "sinä",
+        "pres": "leikit",
+        "past": "leikit",
+        "spok": "sä leikit"
+      },
+      {
+        "pro": "hän",
+        "pres": "leikkii",
+        "past": "leikki",
+        "spok": "se leikkii"
+      },
+      {
+        "pro": "me",
+        "pres": "leikimme",
+        "past": "leikimme",
+        "spok": "me leikitään"
+      },
+      {
+        "pro": "te",
+        "pres": "leikitte",
+        "past": "leikitte",
+        "spok": "te leikitte"
+      },
+      {
+        "pro": "he",
+        "pres": "leikkivät",
+        "past": "leikkivät",
+        "spok": "ne leikkii"
+      }
+    ],
+    "expressions": [
+      [
+        "Leikin lapsen kanssa.",
+        "I play with the child."
+      ],
+      [
+        "Leikitkö ulkona?",
+        "Do you play outside?"
+      ],
+      [
+        "Hän leikki autolla.",
+        "He played with a toy car."
+      ],
+      [
+        "Leikimme piilosta.",
+        "We play hide-and-seek."
+      ],
+      [
+        "Lapset leikkivät puistossa.",
+        "The children play in the park."
+      ]
+    ],
+    "story_fi": "Leikin usein lasten kanssa. Eilen leikimme puistossa. Tänään lapset leikkivät kotona.",
+    "story_en": "I often play with the children. Yesterday we played in the park. Today the children are playing at home."
+  },
+  {
+    "fi": "soittaa",
+    "negative": {
+      "present": "en soita",
+      "imperfect": "en soittanut",
+      "perfect": "en ole soittanut"
+    },
+    "en": "to call / to play music",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "soitan",
+        "past": "soitin",
+        "spok": "mä soitan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "soitat",
+        "past": "soitit",
+        "spok": "sä soitat"
+      },
+      {
+        "pro": "hän",
+        "pres": "soittaa",
+        "past": "soitti",
+        "spok": "se soittaa"
+      },
+      {
+        "pro": "me",
+        "pres": "soitamme",
+        "past": "soitimme",
+        "spok": "me soitetaan"
+      },
+      {
+        "pro": "te",
+        "pres": "soitatte",
+        "past": "soititte",
+        "spok": "te soitatte"
+      },
+      {
+        "pro": "he",
+        "pres": "soittavat",
+        "past": "soittivat",
+        "spok": "ne soittaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Soitan äidille.",
+        "I call my mother."
+      ],
+      [
+        "Soitatko kitaraa?",
+        "Do you play guitar?"
+      ],
+      [
+        "Hän soitti eilen.",
+        "She called yesterday."
+      ],
+      [
+        "Soitamme pianoa.",
+        "We play piano."
+      ],
+      [
+        "He soittavat orkesterissa.",
+        "They play in an orchestra."
+      ]
+    ],
+    "story_fi": "Soitan äidille joka sunnuntai. Eilen soitin myös ystävälle. Illalla soitan vähän pianoa.",
+    "story_en": "I call my mother every Sunday. Yesterday I also called a friend. In the evening I will play a little piano."
+  },
+  {
+    "fi": "lainata",
+    "negative": {
+      "present": "en lainaa",
+      "imperfect": "en lainannut",
+      "perfect": "en ole lainannut"
+    },
+    "en": "to borrow / to lend",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "lainaan",
+        "past": "lainasin",
+        "spok": "mä lainaan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "lainaat",
+        "past": "lainasit",
+        "spok": "sä lainaat"
+      },
+      {
+        "pro": "hän",
+        "pres": "lainaa",
+        "past": "lainasi",
+        "spok": "se lainaa"
+      },
+      {
+        "pro": "me",
+        "pres": "lainaamme",
+        "past": "lainasimme",
+        "spok": "me lainataan"
+      },
+      {
+        "pro": "te",
+        "pres": "lainaatte",
+        "past": "lainasitte",
+        "spok": "te lainaatte"
+      },
+      {
+        "pro": "he",
+        "pres": "lainaavat",
+        "past": "lainasivat",
+        "spok": "ne lainaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Lainaan kirjan kirjastosta.",
+        "I borrow a book from the library."
+      ],
+      [
+        "Lainaatko minulle kynän?",
+        "Will you lend me a pen?"
+      ],
+      [
+        "Hän lainasi pyörääni.",
+        "She borrowed my bike."
+      ],
+      [
+        "Lainaamme elokuvia.",
+        "We borrow movies."
+      ],
+      [
+        "He lainaavat rahaa pankista.",
+        "They borrow money from the bank."
+      ]
+    ],
+    "story_fi": "Lainaan usein kirjoja kirjastosta. Eilen lainasin suomalaisen romaanin. Voin myös lainata sen sinulle.",
+    "story_en": "I often borrow books from the library. Yesterday I borrowed a Finnish novel. I can also lend it to you."
+  },
+  {
+    "fi": "tavata",
+    "negative": {
+      "present": "en tapaa",
+      "imperfect": "en tavannut",
+      "perfect": "en ole tavannut"
+    },
+    "en": "to meet",
+    "verbtype": 4,
+    "verbrule": "type 4 · infinitive ends in -ata/-ätä, -ota/-ötä, -uta/-ytä; stem adds -aa/-ää",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "tapaan",
+        "past": "tapasin",
+        "spok": "mä tapaan"
+      },
+      {
+        "pro": "sinä",
+        "pres": "tapaat",
+        "past": "tapasit",
+        "spok": "sä tapaat"
+      },
+      {
+        "pro": "hän",
+        "pres": "tapaa",
+        "past": "tapasi",
+        "spok": "se tapaa"
+      },
+      {
+        "pro": "me",
+        "pres": "tapaamme",
+        "past": "tapasimme",
+        "spok": "me tavataan"
+      },
+      {
+        "pro": "te",
+        "pres": "tapaatte",
+        "past": "tapasitte",
+        "spok": "te tapaatte"
+      },
+      {
+        "pro": "he",
+        "pres": "tapaavat",
+        "past": "tapasivat",
+        "spok": "ne tapaa"
+      }
+    ],
+    "expressions": [
+      [
+        "Tapaan ystävän.",
+        "I meet a friend."
+      ],
+      [
+        "Tapaatko hänet huomenna?",
+        "Will you meet her tomorrow?"
+      ],
+      [
+        "Hän tapasi opettajan.",
+        "He met the teacher."
+      ],
+      [
+        "Tapaamme kahvilassa.",
+        "We meet at a café."
+      ],
+      [
+        "He tapaavat usein.",
+        "They meet often."
+      ]
+    ],
+    "story_fi": "Tapaan ystäviä viikonloppuna. Eilen tapasin uuden naapurin. Huomenna tapaamme kahvilassa.",
+    "story_en": "I meet friends at the weekend. Yesterday I met a new neighbor. Tomorrow we will meet at a café."
+  },
+  {
+    "fi": "tutustua",
+    "negative": {
+      "present": "en tutustu",
+      "imperfect": "en tutustunut",
+      "perfect": "en ole tutustunut"
+    },
+    "en": "to get to know",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "tutustun",
+        "past": "tutustuin",
+        "spok": "mä tutustun"
+      },
+      {
+        "pro": "sinä",
+        "pres": "tutustut",
+        "past": "tutustuit",
+        "spok": "sä tutustut"
+      },
+      {
+        "pro": "hän",
+        "pres": "tutustuu",
+        "past": "tutustui",
+        "spok": "se tutustuu"
+      },
+      {
+        "pro": "me",
+        "pres": "tutustumme",
+        "past": "tutustuimme",
+        "spok": "me tutustutaan"
+      },
+      {
+        "pro": "te",
+        "pres": "tutustutte",
+        "past": "tutustuitte",
+        "spok": "te tutustutte"
+      },
+      {
+        "pro": "he",
+        "pres": "tutustuvat",
+        "past": "tutustuivat",
+        "spok": "ne tutustuu"
+      }
+    ],
+    "expressions": [
+      [
+        "Tutustun uusiin ihmisiin.",
+        "I get to know new people."
+      ],
+      [
+        "Tutustutko kaupunkiin?",
+        "Are you getting to know the city?"
+      ],
+      [
+        "Hän tutustui naapuriin.",
+        "She got to know the neighbor."
+      ],
+      [
+        "Tutustumme Suomeen.",
+        "We get to know Finland."
+      ],
+      [
+        "He tutustuvat koulussa.",
+        "They get acquainted at school."
+      ]
+    ],
+    "story_fi": "Tutustun kurssilla uusiin ihmisiin. Eilen tutustuin opiskelijaan Espanjasta. Haluamme tutustua paremmin.",
+    "story_en": "I get to know new people on the course. Yesterday I met a student from Spain. We want to get to know each other better."
+  },
+  {
+    "fi": "katsoa",
+    "negative": {
+      "present": "en katso",
+      "imperfect": "en katsonut",
+      "perfect": "en ole katsonut"
+    },
+    "en": "to watch / to look",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "katson",
+        "past": "katsoin",
+        "spok": "mä katson"
+      },
+      {
+        "pro": "sinä",
+        "pres": "katsot",
+        "past": "katsoit",
+        "spok": "sä katsot"
+      },
+      {
+        "pro": "hän",
+        "pres": "katsoo",
+        "past": "katsoi",
+        "spok": "se katsoo"
+      },
+      {
+        "pro": "me",
+        "pres": "katsomme",
+        "past": "katsoimme",
+        "spok": "me katsotaan"
+      },
+      {
+        "pro": "te",
+        "pres": "katsotte",
+        "past": "katsoitte",
+        "spok": "te katsotte"
+      },
+      {
+        "pro": "he",
+        "pres": "katsovat",
+        "past": "katsoivat",
+        "spok": "ne katsoo"
+      }
+    ],
+    "expressions": [
+      [
+        "Katson televisiota.",
+        "I watch television."
+      ],
+      [
+        "Katsotko tätä?",
+        "Will you look at this?"
+      ],
+      [
+        "Hän katsoi elokuvan.",
+        "She watched a movie."
+      ],
+      [
+        "Katsomme ulos ikkunasta.",
+        "We look out the window."
+      ],
+      [
+        "He katsovat peliä.",
+        "They watch the game."
+      ]
+    ],
+    "story_fi": "Katson illalla uutiset. Eilen katsoin hyvän elokuvan. Viikonloppuna katsomme jalkapalloa.",
+    "story_en": "I watch the news in the evening. Yesterday I watched a good movie. At the weekend we will watch football."
+  },
+  {
+    "fi": "jäädä",
+    "negative": {
+      "present": "en jää",
+      "imperfect": "en jäänyt",
+      "perfect": "en ole jäänyt"
+    },
+    "en": "to stay / to remain",
+    "verbtype": 2,
+    "verbrule": "type 2 · infinitive ends in -da/-dä; remove -da/-dä",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "jään",
+        "past": "jäin",
+        "spok": "mä jään"
+      },
+      {
+        "pro": "sinä",
+        "pres": "jäät",
+        "past": "jäit",
+        "spok": "sä jäät"
+      },
+      {
+        "pro": "hän",
+        "pres": "jää",
+        "past": "jäi",
+        "spok": "se jää"
+      },
+      {
+        "pro": "me",
+        "pres": "jäämme",
+        "past": "jäimme",
+        "spok": "me jäädään"
+      },
+      {
+        "pro": "te",
+        "pres": "jäätte",
+        "past": "jäitte",
+        "spok": "te jäätte"
+      },
+      {
+        "pro": "he",
+        "pres": "jäävät",
+        "past": "jäivät",
+        "spok": "ne jää"
+      }
+    ],
+    "expressions": [
+      [
+        "Jään kotiin.",
+        "I stay home."
+      ],
+      [
+        "Jäätkö yöksi?",
+        "Will you stay overnight?"
+      ],
+      [
+        "Hän jäi töihin.",
+        "She stayed at work."
+      ],
+      [
+        "Jäämme Helsinkiin.",
+        "We are staying in Helsinki."
+      ],
+      [
+        "He jäävät tänne.",
+        "They will stay here."
+      ]
+    ],
+    "story_fi": "Jään tänään kotiin. Eilen jäin töihin myöhään. Huomenna jään ystävän luo yöksi.",
+    "story_en": "I am staying home today. Yesterday I stayed at work late. Tomorrow I will stay overnight at a friend’s place."
+  },
+  {
+    "fi": "saapua",
+    "negative": {
+      "present": "en saavu",
+      "imperfect": "en saapunut",
+      "perfect": "en ole saapunut"
+    },
+    "en": "to arrive",
+    "verbtype": 1,
+    "verbrule": "type 1 · infinitive ends in two vowels (-aa/-ää etc.); drop one vowel for stem",
+    "conj": [
+      {
+        "pro": "minä",
+        "pres": "saavun",
+        "past": "saavuin",
+        "spok": "mä saavun"
+      },
+      {
+        "pro": "sinä",
+        "pres": "saavut",
+        "past": "saavuit",
+        "spok": "sä saavut"
+      },
+      {
+        "pro": "hän",
+        "pres": "saapuu",
+        "past": "saapui",
+        "spok": "se saapuu"
+      },
+      {
+        "pro": "me",
+        "pres": "saavumme",
+        "past": "saavuimme",
+        "spok": "me saavutaan"
+      },
+      {
+        "pro": "te",
+        "pres": "saavutte",
+        "past": "saavuitte",
+        "spok": "te saavutte"
+      },
+      {
+        "pro": "he",
+        "pres": "saapuvat",
+        "past": "saapuivat",
+        "spok": "ne saapuu"
+      }
+    ],
+    "expressions": [
+      [
+        "Saavun asemalle.",
+        "I arrive at the station."
+      ],
+      [
+        "Saavutko ajoissa?",
+        "Will you arrive on time?"
+      ],
+      [
+        "Juna saapui myöhässä.",
+        "The train arrived late."
+      ],
+      [
+        "Saavumme illalla.",
+        "We arrive in the evening."
+      ],
+      [
+        "Vieraat saapuvat pian.",
+        "The guests will arrive soon."
+      ]
+    ],
+    "story_fi": "Saavun töihin kahdeksalta. Eilen saavuin vähän myöhässä. Huomenna yritän saapua ajoissa.",
+    "story_en": "I arrive at work at eight. Yesterday I arrived a little late. Tomorrow I will try to arrive on time."
   }
 ]

@@ -212,3 +212,185 @@ vastata – spoken Finnish (all persons);mä vastaan / sä vastaat / se vastaa /
 vastata – negative forms (minä);present: en vastaa / imperfect: en vastannut / perfect: en ole vastannut
 Translate to Finnish: I answer the question. / Will you answer me? / She answered correctly. / We will answer soon. / They did not answer.;Vastaan kysymykseen. / Vastaatko minulle? / Hän vastasi oikein. / Vastaamme pian. / He eivät vastanneet.
 Translate to Finnish: The teacher asked me a question. I answered slowly in Finnish. The teacher said that I answered well.;Opettaja kysyi minulta kysymyksen. Vastasin hitaasti suomeksi. Opettaja sanoi, että vastasin hyvin.
+
+istua – present tense (all persons);istun / istut / istuu / istumme / istutte / istuvat
+istua – past tense (all persons);istuin / istuit / istui / istuimme / istuitte / istuivat
+istua – spoken Finnish (all persons);mä istun / sä istut / se istuu / me istutaan / te istutte / ne istuu
+istua – negative forms (minä);present: en istu / imperfect: en istunut / perfect: en ole istunut
+Translate to Finnish: I sit in the kitchen. / Will you sit here? / He sat on the bus. / We sit by the window. / They sit in the park.;Istun keittiössä. / Istutko tässä? / Hän istui bussissa. / Istumme ikkunan vieressä. / He istuvat puistossa.
+Translate to Finnish: In the morning I sit in the kitchen and drink coffee. Yesterday I sat on the balcony for a long time. Today I sit beside a friend.;Istun aamulla keittiössä ja juon kahvia. Eilen istuin pitkään parvekkeella. Tänään istun ystävän vieressä.
+
+seisoa – present tense (all persons);seison / seisot / seisoo / seisomme / seisotte / seisovat
+seisoa – past tense (all persons);seisoin / seisoit / seisoi / seisoimme / seisoitte / seisoivat
+seisoa – spoken Finnish (all persons);mä seison / sä seisot / se seisoo / me seistään / te seisotte / ne seisoo
+seisoa – negative forms (minä);present: en seiso / imperfect: en seisonut / perfect: en ole seisonut
+Translate to Finnish: I stand in front of the door. / Are you standing in line? / She stood at the bus stop. / We stand together. / They stand outside.;Seison oven edessä. / Seisotko jonossa? / Hän seisoi pysäkillä. / Seisomme yhdessä. / He seisovat ulkona.
+Translate to Finnish: I stand at the bus stop every morning. Yesterday I stood there for ten minutes. Now I am standing in the warm sun.;Seison bussipysäkillä joka aamu. Eilen seisoin siellä kymmenen minuuttia. Nyt seison lämpimässä auringossa.
+
+pyytää – present tense (all persons);pyydän / pyydät / pyytää / pyydämme / pyydätte / pyytävät
+pyytää – past tense (all persons);pyysin / pyysit / pyysi / pyysimme / pyysitte / pyysivät
+pyytää – spoken Finnish (all persons);mä pyydän / sä pyydät / se pyytää / me pyydetään / te pyydätte / ne pyytää
+pyytää – negative forms (minä);present: en pyydä / imperfect: en pyytänyt / perfect: en ole pyytänyt
+Translate to Finnish: I ask for help. / Will you ask for the bill? / She asked for coffee. / We apologize. / They request more information.;Pyydän apua. / Pyydätkö laskun? / Hän pyysi kahvia. / Pyydämme anteeksi. / He pyytävät lisätietoja.
+Translate to Finnish: I ask for help in the shop. Yesterday I asked the salesperson for advice. She said that I can always ask for help.;Pyydän kaupassa apua. Eilen pyysin myyjältä neuvoa. Hän sanoi, että voin aina pyytää apua.
+
+kertoa – present tense (all persons);kerron / kerrot / kertoo / kerromme / kerrotte / kertovat
+kertoa – past tense (all persons);kerroin / kerroit / kertoi / kerroimme / kerroitte / kertoivat
+kertoa – spoken Finnish (all persons);mä kerron / sä kerrot / se kertoo / me kerrotaan / te kerrotte / ne kertoo
+kertoa – negative forms (minä);present: en kerro / imperfect: en kertonut / perfect: en ole kertonut
+Translate to Finnish: I will tell you the news. / Will you tell me your name? / He told a story. / We will tell you about it tomorrow. / They tell the truth.;Kerron sinulle uutisen. / Kerrotko nimesi? / Hän kertoi tarinan. / Kerromme asiasta huomenna. / He kertovat totuuden.
+Translate to Finnish: I tell my friend about my day. Yesterday I told her a funny story. Tomorrow I will tell her more.;Kerron ystävälle päivästäni. Eilen kerroin hänelle hauskan tarinan. Huomenna kerron lisää.
+
+keskustella – present tense (all persons);keskustelen / keskustelet / keskustelee / keskustelemme / keskustelette / keskustelevat
+keskustella – past tense (all persons);keskustelin / keskustelit / keskusteli / keskustelimme / keskustelitte / keskustelivat
+keskustella – spoken Finnish (all persons);mä keskustelen / sä keskustelet / se keskustelee / me keskustellaan / te keskustelette / ne keskustelee
+keskustella – negative forms (minä);present: en keskustele / imperfect: en keskustellut / perfect: en ole keskustellut
+Translate to Finnish: I talk with the teacher. / Will you discuss the matter? / She talked for a long time. / We talk in Finnish. / They discuss work.;Keskustelen opettajan kanssa. / Keskusteletko asiasta? / Hän keskusteli pitkään. / Keskustelemme suomeksi. / He keskustelevat työstä.
+Translate to Finnish: I often chat with my neighbor. Yesterday we talked about the weather. It is nice to talk in Finnish.;Keskustelen usein naapurin kanssa. Eilen keskustelimme säästä. On mukava keskustella suomeksi.
+
+herätä – present tense (all persons);herään / heräät / herää / heräämme / heräätte / heräävät
+herätä – past tense (all persons);heräsin / heräsit / heräsi / heräsimme / heräsitte / heräsivät
+herätä – spoken Finnish (all persons);mä herään / sä heräät / se herää / me herätään / te heräätte / ne herää
+herätä – negative forms (minä);present: en herää / imperfect: en herännyt / perfect: en ole herännyt
+Translate to Finnish: I wake up at seven. / Do you wake up early? / She woke up at night. / We wake up to the alarm. / They wake up late.;Herään seitsemältä. / Heräätkö aikaisin? / Hän heräsi yöllä. / Heräämme kellon soittoon. / He heräävät myöhään.
+Translate to Finnish: I wake up early on weekdays. Yesterday I woke up at six already. On weekends I want to wake up later.;Herään arkisin aikaisin. Eilen heräsin jo kuudelta. Viikonloppuna haluan herätä myöhemmin.
+
+nousta – present tense (all persons);nousen / nouset / nousee / nousemme / nousette / nousevat
+nousta – past tense (all persons);nousin / nousit / nousi / nousimme / nousitte / nousivat
+nousta – spoken Finnish (all persons);mä nousen / sä nouset / se nousee / me noustaan / te nousette / ne nousee
+nousta – negative forms (minä);present: en nouse / imperfect: en noussut / perfect: en ole noussut
+Translate to Finnish: I get out of bed. / Do you get up early? / The sun rose. / We get on the bus. / Prices are rising.;Nousen sängystä. / Nousetko aikaisin? / Aurinko nousi. / Nousemme bussiin. / Hinnat nousevat.
+Translate to Finnish: I get out of bed immediately in the morning. Yesterday I got up later than usual. Tomorrow I will get up at seven again.;Nousen aamulla heti sängystä. Eilen nousin tavallista myöhemmin. Huomenna nousen taas seitsemältä.
+
+maata – present tense (all persons);makaan / makaat / makaa / makaamme / makaatte / makaavat
+maata – past tense (all persons);makasin / makasit / makasi / makasimme / makasitte / makasivat
+maata – spoken Finnish (all persons);mä makaan / sä makaat / se makaa / me maataan / te makaatte / ne makaa
+maata – negative forms (minä);present: en makaa / imperfect: en maannut / perfect: en ole maannut
+Translate to Finnish: I lie on the sofa. / Are you lying in bed? / The dog lay on the floor. / We lie on the beach. / The books are lying on the table.;Makaan sohvalla. / Makaatko sängyssä? / Koira makasi lattialla. / Makaamme rannalla. / Kirjat makaavat pöydällä.
+Translate to Finnish: I lie on the sofa for a while after work. Yesterday I lay there and read a book. The cat often lies beside me.;Makaan hetken sohvalla töiden jälkeen. Eilen makasin siinä ja luin kirjaa. Kissa makaa usein vieressäni.
+
+pestä – present tense (all persons);pesen / peset / pesee / pesemme / pesette / pesevät
+pestä – past tense (all persons);pesin / pesit / pesi / pesimme / pesitte / pesivät
+pestä – spoken Finnish (all persons);mä pesen / sä peset / se pesee / me pestään / te pesette / ne pesee
+pestä – negative forms (minä);present: en pese / imperfect: en pessyt / perfect: en ole pessyt
+Translate to Finnish: I wash my hands. / Will you wash the car? / She washed her hair. / We wash the dishes. / They do the laundry.;Pesen kädet. / Pesetkö auton? / Hän pesi hiukset. / Pesemme astiat. / He pesevät pyykkiä.
+Translate to Finnish: I wash my hands before eating. Yesterday I also washed the car. Tomorrow I will wash the windows.;Pesen kädet ennen ruokaa. Eilen pesin myös auton. Huomenna pesen ikkunat.
+
+tiskata – present tense (all persons);tiskaan / tiskaat / tiskaa / tiskaamme / tiskaatte / tiskaavat
+tiskata – past tense (all persons);tiskasin / tiskasit / tiskasi / tiskasimme / tiskasitte / tiskasivat
+tiskata – spoken Finnish (all persons);mä tiskaan / sä tiskaat / se tiskaa / me tiskataan / te tiskaatte / ne tiskaa
+tiskata – negative forms (minä);present: en tiskaa / imperfect: en tiskannut / perfect: en ole tiskannut
+Translate to Finnish: I wash the dishes in the evening. / Will you wash the dishes today? / He washed the cups. / We wash the dishes together. / They take turns washing dishes.;Tiskaan illalla. / Tiskaatko tänään? / Hän tiskasi kupit. / Tiskaamme yhdessä. / He tiskaavat vuorotellen.
+Translate to Finnish: I usually wash the dishes after the meal. Yesterday I washed many dishes. Today my friend is washing them with me.;Tiskaan yleensä ruoan jälkeen. Eilen tiskasin paljon astioita. Tänään ystäväni tiskaa kanssani.
+
+siivota – present tense (all persons);siivoan / siivoat / siivoaa / siivoamme / siivoatte / siivoavat
+siivota – past tense (all persons);siivosin / siivosit / siivosi / siivosimme / siivositte / siivosivat
+siivota – spoken Finnish (all persons);mä siivoan / sä siivoat / se siivoaa / me siivotaan / te siivoatte / ne siivoaa
+siivota – negative forms (minä);present: en siivoa / imperfect: en siivonnut / perfect: en ole siivonnut
+Translate to Finnish: I clean the room. / Do you clean on Saturday? / She cleaned the kitchen. / We clean together. / They are cleaning the office.;Siivoan huoneen. / Siivoatko lauantaina? / Hän siivosi keittiön. / Siivoamme yhdessä. / He siivoavat toimistoa.
+Translate to Finnish: I clean the home every week. Yesterday I cleaned the kitchen. Tomorrow I will clean the bedroom.;Siivoan kodin joka viikko. Eilen siivosin keittiön. Huomenna siivoan makuuhuoneen.
+
+imuroida – present tense (all persons);imuroin / imuroit / imuroi / imuroimme / imuroitte / imuroivat
+imuroida – past tense (all persons);imuroin / imuroit / imuroi / imuroimme / imuroitte / imuroivat
+imuroida – spoken Finnish (all persons);mä imuroin / sä imuroit / se imuroi / me imuroidaan / te imuroitte / ne imuroi
+imuroida – negative forms (minä);present: en imuroi / imperfect: en imuroinut / perfect: en ole imuroinut
+Translate to Finnish: I vacuum the living room. / Will you vacuum today? / She vacuumed in the morning. / We vacuum every week. / They vacuum the rugs.;Imuroin olohuoneen. / Imuroitko tänään? / Hän imuroi aamulla. / Imuroimme joka viikko. / He imuroivat matot.
+Translate to Finnish: I vacuum the home on Fridays. Yesterday I vacuumed every room. Next I will vacuum the car.;Imuroin kodin perjantaisin. Eilen imuroin kaikki huoneet. Seuraavaksi imuroin auton.
+
+uida – present tense (all persons);uin / uit / ui / uimme / uitte / uivat
+uida – past tense (all persons);uin / uit / ui / uimme / uitte / uivat
+uida – spoken Finnish (all persons);mä uin / sä uit / se ui / me uidaan / te uitte / ne ui
+uida – negative forms (minä);present: en ui / imperfect: en uinut / perfect: en ole uinut
+Translate to Finnish: I swim in the lake. / Do you swim often? / She swam yesterday. / We swim together. / They swim fast.;Uin järvessä. / Uitko usein? / Hän ui eilen. / Uimme yhdessä. / He uivat nopeasti.
+Translate to Finnish: I swim in the lake in summer. Yesterday I swam for half an hour. Tomorrow I will swim with a friend.;Uin kesällä järvessä. Eilen uin puoli tuntia. Huomenna uin ystävän kanssa.
+
+kävellä – present tense (all persons);kävelen / kävelet / kävelee / kävelemme / kävelette / kävelevät
+kävellä – past tense (all persons);kävelin / kävelit / käveli / kävelimme / kävelitte / kävelivät
+kävellä – spoken Finnish (all persons);mä kävelen / sä kävelet / se kävelee / me kävellään / te kävelette / ne kävelee
+kävellä – negative forms (minä);present: en kävele / imperfect: en kävellyt / perfect: en ole kävellyt
+Translate to Finnish: I walk to work. / Will you walk home? / She walked in the park. / We walk slowly. / They walk on the beach.;Kävelen töihin. / Käveletkö kotiin? / Hän käveli puistossa. / Kävelemme hitaasti. / He kävelevät rannalla.
+Translate to Finnish: I walk to work every day. Yesterday I walked a long way. In the evening I will also walk with the dog.;Kävelen joka päivä töihin. Eilen kävelin pitkän matkan. Illalla kävelen vielä koiran kanssa.
+
+pyöräillä – present tense (all persons);pyöräilen / pyöräilet / pyöräilee / pyöräilemme / pyöräilette / pyöräilevät
+pyöräillä – past tense (all persons);pyöräilin / pyöräilit / pyöräili / pyöräilimme / pyöräilitte / pyöräilivät
+pyöräillä – spoken Finnish (all persons);mä pyöräilen / sä pyöräilet / se pyöräilee / me pyöräillään / te pyöräilette / ne pyöräilee
+pyöräillä – negative forms (minä);present: en pyöräile / imperfect: en pyöräillyt / perfect: en ole pyöräillyt
+Translate to Finnish: I cycle to school. / Do you cycle often? / He cycled to work. / We cycle together. / They cycle in summer.;Pyöräilen kouluun. / Pyöräiletkö usein? / Hän pyöräili töihin. / Pyöräilemme yhdessä. / He pyöräilevät kesällä.
+Translate to Finnish: I cycle to work in good weather. Yesterday I cycled along the river. At the weekend I will cycle with a friend.;Pyöräilen töihin hyvällä säällä. Eilen pyöräilin joen rannalla. Viikonloppuna pyöräilen ystävän kanssa.
+
+ajaa – present tense (all persons);ajan / ajat / ajaa / ajamme / ajatte / ajavat
+ajaa – past tense (all persons);ajoin / ajoit / ajoi / ajoimme / ajoitte / ajoivat
+ajaa – spoken Finnish (all persons);mä ajan / sä ajat / se ajaa / me ajetaan / te ajatte / ne ajaa
+ajaa – negative forms (minä);present: en aja / imperfect: en ajanut / perfect: en ole ajanut
+Translate to Finnish: I drive a car. / Do you drive to work? / She drove to Helsinki. / We drive slowly. / They travel by bus.;Ajan autoa. / Ajatko töihin? / Hän ajoi Helsinkiin. / Ajamme hitaasti. / He ajavat bussilla.
+Translate to Finnish: I drive to work in the morning. Yesterday I drove to the countryside. Tomorrow I will drive back to the city.;Ajan aamulla töihin. Eilen ajoin maalle. Huomenna ajan takaisin kaupunkiin.
+
+juosta – present tense (all persons);juoksen / juokset / juoksee / juoksemme / juoksette / juoksevat
+juosta – past tense (all persons);juoksin / juoksit / juoksi / juoksimme / juoksitte / juoksivat
+juosta – spoken Finnish (all persons);mä juoksen / sä juokset / se juoksee / me juostaan / te juoksette / ne juoksee
+juosta – negative forms (minä);present: en juokse / imperfect: en juossut / perfect: en ole juossut
+Translate to Finnish: I run in the park. / Do you run fast? / He ran home. / We run together. / The children run in the yard.;Juoksen puistossa. / Juoksetko nopeasti? / Hän juoksi kotiin. / Juoksemme yhdessä. / Lapset juoksevat pihalla.
+Translate to Finnish: I run in the park three times a week. Yesterday I ran five kilometers. Tomorrow I will run with a friend.;Juoksen puistossa kolme kertaa viikossa. Eilen juoksin viisi kilometriä. Huomenna juoksen ystävän kanssa.
+
+pelata – present tense (all persons);pelaan / pelaat / pelaa / pelaamme / pelaatte / pelaavat
+pelata – past tense (all persons);pelasin / pelasit / pelasi / pelasimme / pelasitte / pelasivat
+pelata – spoken Finnish (all persons);mä pelaan / sä pelaat / se pelaa / me pelataan / te pelaatte / ne pelaa
+pelata – negative forms (minä);present: en pelaa / imperfect: en pelannut / perfect: en ole pelannut
+Translate to Finnish: I play football. / Do you play chess? / She played well. / We play cards. / They play ice hockey.;Pelaan jalkapalloa. / Pelaatko shakkia? / Hän pelasi hyvin. / Pelaamme korttia. / He pelaavat jääkiekkoa.
+Translate to Finnish: I play football on Tuesdays. Yesterday I played with friends. Next week we will play again.;Pelaan jalkapalloa tiistaisin. Eilen pelasin ystävien kanssa. Ensi viikolla pelaamme taas.
+
+leikkiä – present tense (all persons);leikin / leikit / leikkii / leikimme / leikitte / leikkivät
+leikkiä – past tense (all persons);leikin / leikit / leikki / leikimme / leikitte / leikkivät
+leikkiä – spoken Finnish (all persons);mä leikin / sä leikit / se leikkii / me leikitään / te leikitte / ne leikkii
+leikkiä – negative forms (minä);present: en leiki / imperfect: en leikkinyt / perfect: en ole leikkinyt
+Translate to Finnish: I play with the child. / Do you play outside? / He played with a toy car. / We play hide-and-seek. / The children play in the park.;Leikin lapsen kanssa. / Leikitkö ulkona? / Hän leikki autolla. / Leikimme piilosta. / Lapset leikkivät puistossa.
+Translate to Finnish: I often play with the children. Yesterday we played in the park. Today the children are playing at home.;Leikin usein lasten kanssa. Eilen leikimme puistossa. Tänään lapset leikkivät kotona.
+
+soittaa – present tense (all persons);soitan / soitat / soittaa / soitamme / soitatte / soittavat
+soittaa – past tense (all persons);soitin / soitit / soitti / soitimme / soititte / soittivat
+soittaa – spoken Finnish (all persons);mä soitan / sä soitat / se soittaa / me soitetaan / te soitatte / ne soittaa
+soittaa – negative forms (minä);present: en soita / imperfect: en soittanut / perfect: en ole soittanut
+Translate to Finnish: I call my mother. / Do you play guitar? / She called yesterday. / We play piano. / They play in an orchestra.;Soitan äidille. / Soitatko kitaraa? / Hän soitti eilen. / Soitamme pianoa. / He soittavat orkesterissa.
+Translate to Finnish: I call my mother every Sunday. Yesterday I also called a friend. In the evening I will play a little piano.;Soitan äidille joka sunnuntai. Eilen soitin myös ystävälle. Illalla soitan vähän pianoa.
+
+lainata – present tense (all persons);lainaan / lainaat / lainaa / lainaamme / lainaatte / lainaavat
+lainata – past tense (all persons);lainasin / lainasit / lainasi / lainasimme / lainasitte / lainasivat
+lainata – spoken Finnish (all persons);mä lainaan / sä lainaat / se lainaa / me lainataan / te lainaatte / ne lainaa
+lainata – negative forms (minä);present: en lainaa / imperfect: en lainannut / perfect: en ole lainannut
+Translate to Finnish: I borrow a book from the library. / Will you lend me a pen? / She borrowed my bike. / We borrow movies. / They borrow money from the bank.;Lainaan kirjan kirjastosta. / Lainaatko minulle kynän? / Hän lainasi pyörääni. / Lainaamme elokuvia. / He lainaavat rahaa pankista.
+Translate to Finnish: I often borrow books from the library. Yesterday I borrowed a Finnish novel. I can also lend it to you.;Lainaan usein kirjoja kirjastosta. Eilen lainasin suomalaisen romaanin. Voin myös lainata sen sinulle.
+
+tavata – present tense (all persons);tapaan / tapaat / tapaa / tapaamme / tapaatte / tapaavat
+tavata – past tense (all persons);tapasin / tapasit / tapasi / tapasimme / tapasitte / tapasivat
+tavata – spoken Finnish (all persons);mä tapaan / sä tapaat / se tapaa / me tavataan / te tapaatte / ne tapaa
+tavata – negative forms (minä);present: en tapaa / imperfect: en tavannut / perfect: en ole tavannut
+Translate to Finnish: I meet a friend. / Will you meet her tomorrow? / He met the teacher. / We meet at a café. / They meet often.;Tapaan ystävän. / Tapaatko hänet huomenna? / Hän tapasi opettajan. / Tapaamme kahvilassa. / He tapaavat usein.
+Translate to Finnish: I meet friends at the weekend. Yesterday I met a new neighbor. Tomorrow we will meet at a café.;Tapaan ystäviä viikonloppuna. Eilen tapasin uuden naapurin. Huomenna tapaamme kahvilassa.
+
+tutustua – present tense (all persons);tutustun / tutustut / tutustuu / tutustumme / tutustutte / tutustuvat
+tutustua – past tense (all persons);tutustuin / tutustuit / tutustui / tutustuimme / tutustuitte / tutustuivat
+tutustua – spoken Finnish (all persons);mä tutustun / sä tutustut / se tutustuu / me tutustutaan / te tutustutte / ne tutustuu
+tutustua – negative forms (minä);present: en tutustu / imperfect: en tutustunut / perfect: en ole tutustunut
+Translate to Finnish: I get to know new people. / Are you getting to know the city? / She got to know the neighbor. / We get to know Finland. / They get acquainted at school.;Tutustun uusiin ihmisiin. / Tutustutko kaupunkiin? / Hän tutustui naapuriin. / Tutustumme Suomeen. / He tutustuvat koulussa.
+Translate to Finnish: I get to know new people on the course. Yesterday I met a student from Spain. We want to get to know each other better.;Tutustun kurssilla uusiin ihmisiin. Eilen tutustuin opiskelijaan Espanjasta. Haluamme tutustua paremmin.
+
+katsoa – present tense (all persons);katson / katsot / katsoo / katsomme / katsotte / katsovat
+katsoa – past tense (all persons);katsoin / katsoit / katsoi / katsoimme / katsoitte / katsoivat
+katsoa – spoken Finnish (all persons);mä katson / sä katsot / se katsoo / me katsotaan / te katsotte / ne katsoo
+katsoa – negative forms (minä);present: en katso / imperfect: en katsonut / perfect: en ole katsonut
+Translate to Finnish: I watch television. / Will you look at this? / She watched a movie. / We look out the window. / They watch the game.;Katson televisiota. / Katsotko tätä? / Hän katsoi elokuvan. / Katsomme ulos ikkunasta. / He katsovat peliä.
+Translate to Finnish: I watch the news in the evening. Yesterday I watched a good movie. At the weekend we will watch football.;Katson illalla uutiset. Eilen katsoin hyvän elokuvan. Viikonloppuna katsomme jalkapalloa.
+
+jäädä – present tense (all persons);jään / jäät / jää / jäämme / jäätte / jäävät
+jäädä – past tense (all persons);jäin / jäit / jäi / jäimme / jäitte / jäivät
+jäädä – spoken Finnish (all persons);mä jään / sä jäät / se jää / me jäädään / te jäätte / ne jää
+jäädä – negative forms (minä);present: en jää / imperfect: en jäänyt / perfect: en ole jäänyt
+Translate to Finnish: I stay home. / Will you stay overnight? / She stayed at work. / We are staying in Helsinki. / They will stay here.;Jään kotiin. / Jäätkö yöksi? / Hän jäi töihin. / Jäämme Helsinkiin. / He jäävät tänne.
+Translate to Finnish: I am staying home today. Yesterday I stayed at work late. Tomorrow I will stay overnight at a friend’s place.;Jään tänään kotiin. Eilen jäin töihin myöhään. Huomenna jään ystävän luo yöksi.
+
+saapua – present tense (all persons);saavun / saavut / saapuu / saavumme / saavutte / saapuvat
+saapua – past tense (all persons);saavuin / saavuit / saapui / saavuimme / saavuitte / saapuivat
+saapua – spoken Finnish (all persons);mä saavun / sä saavut / se saapuu / me saavutaan / te saavutte / ne saapuu
+saapua – negative forms (minä);present: en saavu / imperfect: en saapunut / perfect: en ole saapunut
+Translate to Finnish: I arrive at the station. / Will you arrive on time? / The train arrived late. / We arrive in the evening. / The guests will arrive soon.;Saavun asemalle. / Saavutko ajoissa? / Juna saapui myöhässä. / Saavumme illalla. / Vieraat saapuvat pian.
+Translate to Finnish: I arrive at work at eight. Yesterday I arrived a little late. Tomorrow I will try to arrive on time.;Saavun töihin kahdeksalta. Eilen saavuin vähän myöhässä. Huomenna yritän saapua ajoissa.
