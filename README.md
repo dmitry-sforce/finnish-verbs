@@ -19,7 +19,9 @@ GitHub Pages serves the root `index.html`. In the repository settings, select **
 
 `data/verbs.json` is the canonical verb dataset. The build generates both the GitHub Pages site and Anki import from it.
 
-Read [CONTENT.md](CONTENT.md) before editing a verb. It defines the data shape, content standards, special cases, current catalog, and planned verbs. When content changes, update its current catalog and planned backlog too. It also records the required verification source: [Uusi kielemme’s “Your First 100 Finnish Verbs” list](https://uusikielemme.fi/finnish-vocabulary/vocabulary-lists/your-first-100-finnish-verbs-finnish-for-beginners).
+Read [CONTENT.md](CONTENT.md) before editing a verb. It defines the data shape, content standards, special cases, current catalog, and planned verbs. When content changes, update its current catalog and planned backlog too. It also records the required verification sources, including: 
+- [Uusi kielemme’s “Your First 100 Finnish Verbs” list](https://uusikielemme.fi/finnish-vocabulary/vocabulary-lists/your-first-100-finnish-verbs-finnish-for-beginners).
+- Wiktionary https://en.wiktionary.org/wiki/ , for example for Viedä the link will be https://en.wiktionary.org/wiki/viedä#Finnish
 
 Do not edit the generated `index.html` or `finnish_verbs_anki.txt` directly.
 
