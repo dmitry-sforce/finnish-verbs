@@ -43,11 +43,30 @@
 
   nav {
     display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
+    flex-direction: column;
+    gap: 0.75rem;
     padding: 1rem 2rem;
     background: var(--accent2);
     border-bottom: 1px solid #1a252f;
+  }
+  .nav-group {
+    display: grid;
+    grid-template-columns: 6.5rem 1fr;
+    align-items: start;
+    gap: 0.75rem;
+  }
+  .nav-group-label {
+    color: rgba(255,255,255,0.65);
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    line-height: 1.8rem;
+    text-transform: uppercase;
+  }
+  .nav-group-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
   }
   nav button {
     background: transparent;
@@ -63,6 +82,12 @@
   nav button:hover, nav button.active {
     background: var(--accent);
     border-color: var(--accent);
+  }
+
+  @media (max-width: 600px) {
+    nav { padding: 1rem 1.5rem; }
+    .nav-group { grid-template-columns: 1fr; gap: 0.25rem; }
+    .nav-group-label { line-height: 1.2; }
   }
 
   main {
@@ -254,12 +279,31 @@ const verbs = /*__VERBS__*/;
 
 function buildNav() {
   const nav = document.getElementById('nav');
-  verbs.forEach((v, i) => {
-    const btn = document.createElement('button');
-    btn.textContent = v.fi;
-    btn.onclick = () => showVerb(i);
-    btn.id = `nav-${i}`;
-    nav.appendChild(btn);
+  const verbTypes = [...new Set(verbs.map(v => v.verbtype))].sort((a, b) => a - b);
+
+  verbTypes.forEach(verbtype => {
+    const group = document.createElement('div');
+    group.className = 'nav-group';
+
+    const label = document.createElement('div');
+    label.className = 'nav-group-label';
+    label.textContent = `Verb type ${verbtype}`;
+
+    const buttons = document.createElement('div');
+    buttons.className = 'nav-group-buttons';
+
+    verbs.forEach((v, i) => {
+      if (v.verbtype !== verbtype) return;
+
+      const btn = document.createElement('button');
+      btn.textContent = v.fi;
+      btn.onclick = () => showVerb(i);
+      btn.id = `nav-${i}`;
+      buttons.appendChild(btn);
+    });
+
+    group.append(label, buttons);
+    nav.appendChild(group);
   });
 }
 
